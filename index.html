@@ -1,0 +1,1050 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-LrZWyv49ByaUirmNGTNRg+P0DeXDHQIYt49rXC7nkG4='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src https://docs.google.com; form-action 'self' mailto:; base-uri 'self'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Right Hand NWA | Admin and AI help for Northwest Arkansas small businesses</title>
+<meta name="description" content="Admin and AI help for small businesses in Bentonville, Rogers, Springdale and Fayetteville, from four University of Arkansas students. AI drafts, we check, you approve. Free 30-minute check-up.">
+<link rel="canonical" href="https://righthandnwa.com/">
+<meta name="theme-color" content="#0B1F3B">
+<meta name="geo.region" content="US-AR">
+<meta name="geo.placename" content="Northwest Arkansas">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Right Hand NWA">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://righthandnwa.com/">
+<meta property="og:title" content="Right Hand NWA: hand off the admin, keep the final say">
+<meta property="og:description" content="Four University of Arkansas students take receipts, invoices, missed calls and follow-ups off your plate. AI drafts, we check, you approve. Free 30-minute check-up.">
+<meta property="og:image" content="https://righthandnwa.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Right Hand NWA: hand off the admin, keep the final say. A sample task queue with a missed call, a receipt photo and an invoice prepared, and a quote reply waiting for the owner's OK.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Right Hand NWA: hand off the admin, keep the final say">
+<meta name="twitter:description" content="Four University of Arkansas students take receipts, invoices, missed calls and follow-ups off your plate. AI drafts, we check, you approve. Free 30-minute check-up.">
+<meta name="twitter:image" content="https://righthandnwa.com/assets/og.png">
+<meta name="twitter:image:alt" content="Right Hand NWA: hand off the admin, keep the final say. A sample task queue with a missed call, a receipt photo and an invoice prepared, and a quote reply waiting for the owner's OK.">
+<link rel="alternate" type="text/plain" href="https://righthandnwa.com/llms.txt" title="Right Hand NWA for language models">
+<link rel="icon" href="assets/favicon.svg?v=4ea3b7b2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=b2c869ad">
+<!-- head:start -->
+<link rel="preload" href="assets/bundle-home.css?v=47888320" as="style">
+<link rel="preload" href="assets/fonts/plus-jakarta-sans-latin-var.woff2?v=153fc85b" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Plus Jakarta Sans";src:url(assets/fonts/plus-jakarta-sans-latin-var.woff2?v=153fc85b) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Geist Mono";src:url(assets/fonts/geist-mono-latin.woff2?v=684ad5b5) format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
+@font-face{font-family:"RH Sans Fallback";src:local("Arial"),local("ArialMT"),local("Roboto"),local("Liberation Sans");font-weight:200 450;size-adjust:104%}
+@font-face{font-family:"RH Sans Fallback";src:local("Arial"),local("ArialMT"),local("Roboto"),local("Liberation Sans");font-weight:451 600;size-adjust:106%}
+@font-face{font-family:"RH Sans Fallback";src:local("Arial Bold"),local("Arial-BoldMT"),local("Roboto Bold"),local("Roboto-Bold"),local("Liberation Sans Bold");font-weight:601 800;size-adjust:102%}
+:root{--rh-navy:#0B1F3B;--rh-blue:#2F80ED;--rh-sky:#E6F0FF;--rh-gray:#E5E7EB;--navy-50:#F4F7FB;--navy-100:#E5EAF2;--navy-200:#C8D2E0;--navy-300:#A7B5CA;--navy-400:#8497B1;--navy-500:#637998;--navy-600:#445C7E;--navy-700:#2B4365;--navy-800:#193051;--navy-850:#122846;--navy-900:#0B1F3B;--navy-950:#051326;--blue-50:#F2F7FF;--blue-100:#E6F0FF;--blue-200:#C4DDFF;--blue-300:#95C0FE;--blue-400:#5F9FFA;--blue-500:#2F80ED;--blue-600:#1B6BD1;--blue-700:#115AB5;--blue-800:#0F4386;--blue-900:#0E2F5D;--gray-50:#F7F8FA;--gray-100:#EEF0F4;--gray-200:#E5E7EB;--gray-300:#D1D4DA;--gray-400:#A0A5AC;--gray-500:#6F757E;--gray-600:#535862;--gray-700:#3A404B;--green-50:#E2F8EA;--green-300:#63D99B;--green-500:#15AD6E;--green-700:#14764A;--green-950:#0D362A;--amber-50:#FFF1DA;--amber-300:#FDC357;--amber-400:#FCB442;--amber-700:#985B1A;--amber-950:#402C12;--red-50:#FFEDEB;--red-300:#F58B84;--red-500:#DB4241;--red-700:#BA2B2E;--font-sans:"Plus Jakarta Sans","RH Sans Fallback",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--font-mono:"Geist Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;--fs-micro:.75rem;--fs-sm:.875rem;--fs-body:1.0625rem;--fs-lead:clamp(1.125rem,1.03rem + .45vw,1.375rem);--fs-h3:clamp(1.25rem,1.1rem + .6vw,1.5rem);--fs-h2:clamp(2.125rem,1.45rem + 2.6vw,3.5rem);--fs-h1:clamp(2.6rem,1.6rem + 4.6vw,5rem);--container:1200px;--container-wide:1320px;--pad-x:clamp(1.125rem,.6rem + 2.4vw,2.5rem);--gutter:clamp(1rem,.6rem + 1.6vw,1.5rem);--section-y:clamp(4.5rem,3rem + 6vw,8.5rem);--section-head-gap:clamp(2rem,1.5rem + 2vw,3.5rem);--r-paper:4px;--r-xs:6px;--r-sm:8px;--r-btn:10px;--r-md:12px;--r-lg:16px;--r-xl:24px;--sh-1:0 1px 2px rgba(11,31,59,.06),0 1px 3px rgba(11,31,59,.05);--sh-2:0 2px 6px -1px rgba(11,31,59,.08),0 12px 24px -12px rgba(11,31,59,.18);--sh-3:0 4px 10px -2px rgba(11,31,59,.08),0 28px 56px -24px rgba(11,31,59,.32);--sh-d:inset 0 1px 0 rgba(230,240,255,.06),0 0 0 1px rgba(167,181,202,.10),0 28px 56px -28px rgba(0,0,0,.7);--glow:0 0 0 1px rgba(47,128,237,.55),0 10px 36px -10px rgba(47,128,237,.55);--bracket-w:3px;--bracket-off:10px;--bracket-trim:38%;--dur-press:120ms;--dur-hover:180ms;--dur-chip:240ms;--dur-reveal:320ms;--dur-move:420ms;--dur-draw:600ms;--dur-chart:700ms;--dur-tick:900ms;--ease-out:cubic-bezier(.23,1,.32,1);--ease-io:cubic-bezier(.65,0,.35,1);--ease-land:linear(0,.13 6%,.45 13%,.78 20%,.97 27%,1.04 34%,1.05 40%,1.03 48%,1.005 60%,.998 75%,1);--box:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='1.5' y='1.5' width='21' height='21' rx='6' fill='none' stroke='%23000' stroke-width='2'/%3E%3C/svg%3E");--ck-box:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='1.5' y='1.5' width='21' height='21' rx='6' fill='none' stroke='%23000' stroke-width='2'/%3E%3Cpath d='M6.8 12.6l3.4 3.4 7-7.6' fill='none' stroke='%23000' stroke-width='2.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");--fx-arr:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 12'%3E%3Cpath d='M1.5 6h14M11 1.5L15.5 6 11 10.5' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");}
+:root,.paper{--bg:var(--navy-50);--surface:#FFFFFF;--surface-2:var(--gray-100);--surface-3:var(--gray-200);--wash:var(--blue-100);--ink:var(--navy-900);--ink-2:var(--navy-700);--soft:var(--navy-600);--mute:var(--gray-500);--line:var(--gray-200);--line-ui:var(--gray-500);--rule:var(--navy-200);--accent:var(--blue-500);--accent-ink:var(--blue-700);--btn-bg:var(--blue-600);--btn-bg-hover:var(--blue-700);--btn-ink:#FFFFFF;--focus:var(--blue-600);--ok:var(--green-700);--ok-wash:var(--green-50);--warn:var(--amber-700);--warn-wash:var(--amber-50);--err:var(--red-700);--err-wash:var(--red-50);--mark-box:var(--navy-900);--mark-bracket:var(--blue-500);color-scheme:light;}
+.dark{--bg:var(--navy-950);--surface:var(--navy-900);--surface-2:var(--navy-850);--surface-3:var(--navy-800);--wash:rgba(47,128,237,.12);--ink:var(--navy-50);--ink-2:var(--navy-200);--soft:var(--navy-300);--mute:var(--navy-400);--line:rgba(167,181,202,.14);--line-ui:var(--navy-500);--rule:rgba(167,181,202,.2);--accent:var(--blue-500);--accent-ink:var(--blue-400);--btn-bg:var(--blue-400);--btn-bg-hover:var(--blue-300);--btn-ink:var(--navy-950);--focus:var(--blue-400);--ok:var(--green-300);--ok-wash:var(--green-950);--warn:var(--amber-300);--warn-wash:var(--amber-950);--err:var(--red-300);--err-wash:#3B1517;--mark-box:#FFFFFF;--mark-bracket:var(--blue-500);background:var(--bg);color:var(--ink);color-scheme:dark;}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-padding-top:84px;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html:not([data-motion=off]){scroll-behavior:smooth}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs-body)/1.6 var(--font-sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+::selection{background:var(--blue-200);color:var(--navy-950)}
+a{color:var(--accent-ink);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:2px}
+h1,h2,h3,h4{margin:0;text-wrap:balance}
+h1{font-size:var(--fs-h1);font-weight:800;line-height:1.02;letter-spacing:-.035em}
+h2{font-size:var(--fs-h2);font-weight:700;line-height:1.08;letter-spacing:-.025em}
+p{margin:0;text-wrap:pretty}
+ul,ol{margin:0;padding:0}
+.wrap{max-width:var(--container);margin:0 auto;padding:0 var(--pad-x)}
+.wrap-wide{max-width:var(--container-wide);margin:0 auto;padding:0 var(--pad-x)}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:12px;top:-80px;z-index:300;background:var(--btn-bg);color:var(--btn-ink);padding:10px 14px;border-radius:var(--r-sm);font-weight:600}
+.skip:focus{top:12px}
+.i{width:24px;height:24px;flex:none}
+.eyebrow{font:500 var(--fs-micro)/1.5 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink)}
+.lead{font-size:var(--fs-lead);line-height:1.55;color:var(--soft);max-width:38em}
+.sec-h{max-width:48rem;margin-bottom:var(--section-head-gap)}
+.sec-h h2{margin-top:10px}
+.sec-h .lead{margin-top:20px}
+.band{padding:var(--section-y) 0;position:relative}
+.tag{display:inline-flex;align-items:center;gap:6px;font:500 var(--fs-micro)/1 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--soft);padding:5px 8px;border:1px solid var(--line);border-radius:var(--r-xs)}
+.sw{position:relative;white-space:nowrap}
+.sw::after{content:"";position:absolute;left:-2%;right:-2%;bottom:-.14em;height:.32em;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M4 14 C 50 4, 140 2, 196 9' fill='none' stroke='%232F80ED' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;transform-origin:left center}
+.fx.js-motion .sw:not(.in)::after{transform:scaleX(0)}
+.js-motion .sw.in::after{transition:transform .4s var(--ease-out) .1s}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:14px 22px;font:600 1rem/1.2 var(--font-sans);color:var(--btn-ink);background:var(--btn-bg);border:1.5px solid var(--btn-bg);border-radius:var(--r-btn);cursor:pointer;text-decoration:none;white-space:nowrap;transition:background-color var(--dur-hover) ease,border-color var(--dur-hover) ease,transform var(--dur-press) var(--ease-out)}
+.btn:hover{background:var(--btn-bg-hover);border-color:var(--btn-bg-hover)}
+.btn:active{transform:scale(.98)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line-ui)}
+.btn.ghost:hover{border-color:var(--ink);background:var(--wash)}
+.btn.sm{min-height:40px;padding:9px 15px;font-size:.9375rem}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+@media (max-width:359px){.btn:not(.sm){max-width:100%;white-space:normal;text-align:center}}
+.linkbtn{font:inherit;font-weight:600;color:var(--accent-ink);background:none;border:0;padding:4px 0;cursor:pointer;text-decoration:underline;text-underline-offset:4px}
+.mark{width:28px;height:28px;flex:none;overflow:visible}
+.mark .mk-br{fill:var(--mark-bracket)}
+.mark .mk-bx,.mark .mk-ck{stroke:var(--mark-box)}
+.lockup{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.lockup b{font:800 1.25rem/1 var(--font-sans);letter-spacing:-.02em}
+.lockup b span{color:var(--blue-400)}
+.bracket{position:relative}
+.bracket::before{content:"";position:absolute;top:calc(var(--bracket-off)*-1);right:calc(var(--bracket-off)*-1);width:100%;height:100%;border:solid var(--accent);border-width:var(--bracket-w) var(--bracket-w) 0 0;border-top-right-radius:calc(var(--r-lg) + var(--bracket-off));clip-path:inset(0 0 0 var(--bracket-trim));pointer-events:none;z-index:0}
+.top{position:sticky;top:0;z-index:50;background:var(--navy-900);border-bottom:1px solid rgba(167,181,202,.14)}
+.top .wrap,.top .wrap-wide{display:flex;align-items:center;gap:22px;height:66px}
+.top .lockup{margin-right:auto}
+.top nav ul{display:flex;gap:22px;list-style:none}
+.top nav a{color:var(--navy-200);text-decoration:none;font-weight:500;font-size:.9375rem;padding:8px 0}
+.top nav a:hover{color:#FFF}
+.motion-btn{min-height:36px;padding:0 12px;font:600 .8125rem var(--font-sans);color:var(--navy-200);background:none;border:1px solid var(--navy-600);border-radius:var(--r-sm);cursor:pointer}
+.motion-btn:hover{color:#FFF;border-color:var(--navy-300)}
+.progress-rail{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--blue-500);transform-origin:left;transform:scaleX(0)}
+@supports (animation-timeline:scroll()){@media (prefers-reduced-motion:no-preference) and (pointer:fine){.progress-rail{animation:rail linear both;animation-timeline:scroll(root)}}}
+.top nav{order:1}
+.top .motion-btn{order:2}
+.top .btn.sm{order:3}
+.top .menu-btn{order:4}
+.menu-btn,.bar-menu{display:none;align-items:center;gap:8px;min-height:44px;padding:0 12px 0 10px;font:600 .9375rem/1 var(--font-sans);color:#FFF;text-decoration:none;border:1px solid var(--navy-600);border-radius:var(--r-sm);cursor:pointer;white-space:nowrap}
+.menu-btn:hover,.bar-menu:hover{border-color:var(--navy-300)}
+.menu-btn .i,.bar-menu .i{width:20px;height:20px}
+@media (max-width:1100px){.top nav{display:none}.menu-btn{display:inline-flex}}
+@media (max-width:899px){.top .btn.sm{display:none}}
+@media (max-width:760px){.top .motion-btn{display:none}.top .wrap,.top .wrap-wide{gap:12px}}
+@media (max-width:760px),(max-height:560px){.top{position:static}}
+.hero{position:relative;overflow:hidden;isolation:isolate;padding:clamp(2.5rem,1.5rem + 4vw,5.5rem) 0 clamp(4rem,3rem + 4vw,7rem);background:var(--navy-950)}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,var(--navy-900) 0%,var(--navy-950) 60%)}
+.grid-48::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192'%3E%3Cpath d='M96.5 91v11M91 96.5h11' stroke='%23445C7E' stroke-opacity='.7'/%3E%3C/svg%3E"),linear-gradient(rgba(167,181,202,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(167,181,202,.07) 1px,transparent 1px);background-size:192px 192px,48px 48px,48px 48px;background-position:-1px -1px;-webkit-mask-image:radial-gradient(120% 90% at 70% 35%,#000 30%,transparent 78%);mask-image:radial-gradient(120% 90% at 70% 35%,#000 30%,transparent 78%)}
+.topo{position:absolute;left:-4%;bottom:-6%;width:46%;z-index:-1;opacity:.6;pointer-events:none}
+.topo path{fill:none;stroke:var(--navy-800);stroke-width:1}
+.hero-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(2rem,1rem + 3vw,4.5rem);align-items:center}
+.hero h1{margin-top:18px;max-width:12ch;color:#FFF}
+.hero .lead{margin-top:22px;color:var(--navy-200);max-width:31em;text-wrap:balance}
+.trio{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;list-style:none}
+.trio li{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid rgba(167,181,202,.2);border-radius:var(--r-xs);font-weight:600;font-size:.9375rem;color:var(--navy-100);background:rgba(18,40,70,.6)}
+.trio li b{color:var(--blue-400);font-weight:700}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+@media (min-width:561px) and (max-width:1279px){.hero .ctas{display:inline-grid}}
+.micro{margin-top:14px;font-size:var(--fs-sm);line-height:1.5;color:var(--soft)}
+.hero .micro{color:var(--navy-300)}
+.hero-proof{gap:8px;margin-top:20px;font-size:.8125rem;color:var(--navy-100)}
+.hero-proof li{gap:9px;min-height:36px;padding:6px 13px 6px 9px;border:1px solid var(--rule);border-radius:var(--r-sm);background:rgba(18,40,70,.5)}
+.hero-proof .ck{width:18px;height:18px;padding:2px;border:1.5px solid currentColor;border-radius:5px;color:var(--green-300);stroke-width:3.4}
+.hero-visual{position:relative}
+.hero-glow{position:absolute;inset:8% 6% 10% 10%;z-index:-1;background:radial-gradient(closest-side,rgba(47,128,237,.16),transparent);pointer-events:none}
+@media (max-width:1020px){.hero-grid{grid-template-columns:minmax(0,1fr)}.hero h1{max-width:14ch}}
+.win{position:relative;background:var(--navy-900);border-radius:var(--r-lg);box-shadow:var(--sh-d)}
+.win-bar{display:flex;align-items:center;gap:12px;min-height:44px;padding:6px 10px 6px 16px;border-bottom:1px solid rgba(167,181,202,.12);font:500 .8125rem/1 var(--font-mono);color:var(--navy-300)}
+.win-bar .path{margin-right:auto;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.top{--mark-box:#FFFFFF}
+.nwa{position:relative;padding:12px 14px 12px}
+.nwa-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px;align-items:center}
+.nwa-svg{display:block;width:100%;height:auto;aspect-ratio:560/520;color:var(--navy-300)}
+.nwa-area{fill:rgba(47,128,237,.06);stroke:rgba(95,159,250,.32);stroke-width:1.2;stroke-dasharray:4 6}
+.nwa-hwy-bg{fill:none;stroke:rgba(167,181,202,.14);stroke-width:10;stroke-linecap:round}
+.nwa-hwy{fill:none;stroke:var(--blue-500);stroke-width:3.5;stroke-linecap:round;stroke-dasharray:100;stroke-dashoffset:0}
+.nwa-hwy.west{stroke:var(--blue-400);stroke-width:2.5;opacity:.8}
+.nwa.armed:not(.drawn) .nwa-hwy{stroke-dashoffset:100}
+.nwa.drawn .nwa-hwy{transition:stroke-dashoffset .42s var(--ease-io) .04s}
+.nwa.drawn .nwa-hwy.west{transition-delay:.2s}
+.nwa-shield rect{fill:var(--navy-800);stroke:var(--blue-400);stroke-width:1.2}
+.nwa-shield text{font:700 14px var(--font-mono);fill:#FFF}
+.nwa-small{fill:var(--navy-400)}
+.nwa-city text{font:600 21px var(--font-sans);fill:var(--navy-100)}
+.nwa-dot{fill:var(--navy-900);stroke:#FFF;stroke-width:2.4;transition:fill .2s ease}
+.nwa-pulse{fill:rgba(47,128,237,.4);opacity:0;transform-box:fill-box;transform-origin:center}
+.nwa-city.live .nwa-dot{fill:var(--blue-500)}
+.nwa-city.live .nwa-pulse{animation:pulse .9s var(--ease-out)}
+.nwa-city{transform-box:fill-box;transform-origin:center}
+.nwa.armed:not(.drawn) .nwa-city{opacity:0;transform:scale(.6)}
+.nwa.drawn .nwa-city{transition:opacity .22s ease,transform .22s var(--ease-land);transition-delay:calc(var(--i)*40ms + .08s)}
+.queue{padding:12px;border-radius:var(--r-md);background:rgba(5,19,38,.55);border:1px solid rgba(167,181,202,.14)}
+.q-head{display:flex;justify-content:space-between;gap:8px;margin-bottom:10px;font:600 .75rem/1 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--navy-300)}
+.q-head .mono{letter-spacing:.02em;text-transform:none}
+.q-list{list-style:none;display:grid;gap:7px}
+.q-row{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1px 10px;align-items:center;padding:9px 11px;border:1px solid rgba(167,181,202,.14);border-radius:var(--r-sm);background:var(--navy-900)}
+.q-city{grid-column:1;font:600 .6875rem/1.3 var(--font-mono);letter-spacing:.04em;color:var(--blue-300)}
+.q-task{grid-column:1;font-size:.9375rem;color:#FFF}
+.q-note{grid-column:1;font-size:.8125rem;line-height:1.35;color:var(--navy-300)}
+.q-st,.q-approve{grid-column:2;grid-row:1/4}
+.q-st{display:inline-flex;align-items:center;gap:6px;font:600 .75rem/1 var(--font-mono);color:var(--green-300);transition:opacity .2s ease}
+.q-st .ck{width:16px;height:16px;padding:1.5px;border:1.5px solid currentColor;border-radius:4px;color:var(--green-300);stroke-width:3.4}
+.q-st .ck path{stroke-dashoffset:0}
+.nwa.armed .q-row:not(.ready) .q-st{opacity:0}
+.nwa.armed .q-row:not(.ready) .q-st .ck path{stroke-dashoffset:1}
+.nwa.armed .q-row.ready .q-st .ck path,.q-st.on .ck path{stroke-dashoffset:0;transition:stroke-dashoffset .32s var(--ease-out)}
+.q-st.ok:not(.on) .ck path{stroke-dashoffset:1}
+.q-scan{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(47,128,237,.35),transparent);transform:translateX(-100%)}
+.q-row.scan .q-scan{animation:scan .18s linear forwards}
+.q-row.ready .q-scan{animation:none;opacity:0}
+.nwa.armed .q-row:not(.in){opacity:0;transform:translateY(8px)}
+.nwa.armed .q-row.in{transition:opacity .26s var(--ease-out),transform .26s var(--ease-out)}
+.q-ask{border-color:rgba(252,180,66,.6);background:rgba(64,44,18,.5)}
+.q-ask .q-note{color:var(--amber-300);font-weight:600}
+.q-ask .q-approve{--btn-bg:var(--blue-400);--btn-bg-hover:var(--blue-300);--btn-ink:var(--navy-950);min-height:40px;padding:8px 14px}
+.q-ask.approved{border-color:rgba(99,217,155,.6);background:rgba(13,54,42,.55)}
+.q-ask.approved .q-note{color:var(--green-300)}
+.q-st.ok{opacity:1}
+.map-cap{margin:10px 2px 0;font:500 var(--fs-micro)/1.5 var(--font-mono);letter-spacing:.04em;color:var(--navy-400)}
+@media (max-width:640px){.nwa-layout{grid-template-columns:minmax(0,1fr)}.nwa-svg{max-width:420px;margin:0 auto}}
+@media (max-width:560px){.q-st,.q-approve{grid-row:1/3}.q-note{grid-column:1/-1}}
+@media (prefers-reduced-motion:no-preference){.js-motion .top .mark .mk-br{animation:mk-br .45s var(--ease-out) both}.js-motion .top .mark .mk-bx{animation:mk-bx .4s var(--ease-out) both;transform-box:fill-box;transform-origin:center}.js-motion .top .mark .mk-ck{stroke-dasharray:1;animation:mk-ck .32s var(--ease-out) .2s both}}
+.ck{fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.ck path{stroke-dasharray:1;stroke-dashoffset:1}
+.team,.people{list-style:none;display:grid}
+.team li,.people li{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-areas:"ph name" "ph role";column-gap:16px;align-items:center;padding:14px 0;border-top:1px solid var(--rule)}
+.team li:last-child,.people li:last-child{border-bottom:1px solid var(--rule)}
+.ini{grid-area:ph;position:relative;display:grid;place-items:center;width:56px;height:56px;border-radius:14px;background:linear-gradient(155deg,var(--navy-700),var(--navy-850) 70%);color:#FFF;font:800 1.0625rem/1 var(--font-sans);letter-spacing:.02em}
+.ini::after{content:"";position:absolute;top:-5px;right:-5px;width:100%;height:100%;border:solid var(--blue-500);border-width:2.5px 2.5px 0 0;border-top-right-radius:18px;-webkit-clip-path:inset(0 0 0 38%);clip-path:inset(0 0 0 38%);pointer-events:none}
+.team b,.people b{grid-area:name;align-self:end;font-size:1.1875rem;font-weight:700;line-height:1.25;color:var(--ink)}
+.team .role,.people .role{grid-area:role;align-self:start;font-size:.9375rem;line-height:1.4;color:var(--soft)}
+.team:has(.ph),.people:has(.ph){grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}
+.team:has(.ph) li,.people:has(.ph) li{grid-template-columns:minmax(0,1fr);grid-template-areas:"ph" "name" "role";padding:0;border:0}
+.team:has(.ph) .ini,.people:has(.ph) .ini{width:100%;height:auto;aspect-ratio:4/5;border-radius:var(--r-md);font-size:2rem}
+.team:has(.ph) .ini::after,.people:has(.ph) .ini::after{top:-7px;right:-7px;border-width:3px 3px 0 0;border-top-right-radius:calc(var(--r-md) + 7px)}
+.team:has(.ph) b,.people:has(.ph) b{margin-top:12px}
+[aria-invalid=true]{border-color:var(--red-700)}
+html[data-motion=off] *,html[data-motion=off] *::before,html[data-motion=off] *::after{animation-duration:1ms!important;animation-iteration-count:1!important;transition-duration:1ms!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:1ms!important;animation-iteration-count:1!important;transition-duration:1ms!important;scroll-behavior:auto!important}}
+@media (pointer:coarse){.btn.sm,.chip:not(.stage *),.q-ask .q-approve{min-height:44px}}
+:root{--hot:#FF4B33;--hot-2:#FF6A55}
+:root,.dark,.q-ask .q-approve,.composer .btn,.int-card .btn{--btn-bg:var(--hot);--btn-bg-hover:var(--hot-2);--btn-ink:var(--navy-950)}
+.top .btn.sm{background:transparent;color:#FFF;border-color:var(--hot)}
+.top .btn.sm:hover{background:rgba(255,75,51,.16);border-color:var(--hot-2)}
+html:not(.js) .q-approve,html:not(.js) .motion-btn{display:none}
+@media (max-width:899px){html{scroll-padding-bottom:calc(76px + env(safe-area-inset-bottom))}}
+@media (max-width:760px),(max-height:560px){html{scroll-padding-top:16px}}
+html:not(.js) [data-motion-proxy]{display:none}
+html:has(.menu[open]){overflow:hidden}
+.who-grid{display:grid;grid-template-columns:minmax(0,.86fr) minmax(0,1.14fr);gap:clamp(2.5rem,1rem + 4.5vw,5.5rem);align-items:start}
+.who .sec-h{margin-bottom:clamp(1.5rem,1.2rem + 1vw,2.25rem)}
+.who-more{margin-top:12px}
+.who-where{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:start;margin-bottom:24px;font-size:var(--fs-lead);line-height:1.45;color:var(--navy-100);max-width:30em}
+.who-where .i{margin-top:.2em;color:var(--blue-400)}
+.who-map .nwa{container-type:inline-size}
+.who-map .nwa-layout{grid-template-columns:minmax(0,1fr)}
+.who-map .nwa-svg{max-width:380px;margin:0 auto}
+@container (min-width:600px){.who-map .nwa-layout{grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}}
+@media (max-width:900px){.who-grid{grid-template-columns:minmax(0,1fr)}.who-map .nwa-svg{max-width:300px}}
+@media (max-width:560px){:root{--section-y:3.75rem;--section-head-gap:1.75rem}}
+@media (prefers-reduced-motion:no-preference){@view-transition{navigation:auto}.top{view-transition-name:rh-top}.top .lockup .mark{view-transition-name:rh-mark}::view-transition-old(root),::view-transition-new(root){animation-duration:.22s}}
+.hero + .band.dark,.band.dark + .band.dark,.band.dark + .story,.story + .band.dark,.close + .sg{padding-top:calc(var(--section-y)*.45)}
+:root{--fx-play:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 1.6v8.8a.6.6 0 0 0 .9.5l7-4.4a.6.6 0 0 0 0-1L3.9 1.1a.6.6 0 0 0-.9.5z'/%3E%3C/svg%3E");--fx-stop:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Crect x='2' y='2' width='8' height='8' rx='1.6'/%3E%3C/svg%3E");--fx-step:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M1.5 1.8v8.4a.6.6 0 0 0 .9.5l6-4.2a.6.6 0 0 0 0-1l-6-4.2a.6.6 0 0 0-.9.5z'/%3E%3Crect x='9' y='1.5' width='1.8' height='9' rx='.7'/%3E%3C/svg%3E");--fx-pause:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Crect x='2.2' y='1.5' width='2.8' height='9' rx='.9'/%3E%3Crect x='7' y='1.5' width='2.8' height='9' rx='.9'/%3E%3C/svg%3E");--fx-ck:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2 6.4l2.6 2.6L10 3.4' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");--fx-down:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M6 1.5v8.5M2.2 6.4L6 10.2l3.8-3.8' fill='none' stroke='%23000' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");}
+[data-fx=head]::before{content:"";display:block;height:1px;margin-bottom:20px;background:linear-gradient(90deg,var(--accent) 0 48px,var(--rule) 48px);transform-origin:left center}
+.fx-w{display:inline-block}
+.fx.js-motion [data-fx=head]:not(.fx-in)::before{transform:scaleX(0)}
+.fx.js-motion [data-fx=head]:not(.fx-in) > .eyebrow,.fx.js-motion [data-fx=head]:not(.fx-in) > .lead{opacity:0}
+.fx.js-motion [data-fx=head]:not(.fx-in) .fx-w{opacity:0;transform:translateY(.4em)}
+.js-motion [data-fx=head].fx-in:not(.fx-done)::before{animation:fx-draw .44s var(--ease-out) backwards}
+.js-motion [data-fx=head].fx-in:not(.fx-done) .fx-w{animation:fx-rise .3s var(--ease-out) calc(min(var(--w,0),8)*20ms + 30ms) backwards}
+.js-motion [data-fx=head].fx-in:not(.fx-done) > .lead{animation:fx-up .32s var(--ease-out) .14s backwards}
+.js-motion [data-fx=head].fx-in .sw.in::after{transition-duration:.34s;transition-delay:.14s}
+.fx.js-motion [data-fx=scramble]:not(.fx-in){opacity:0}
+[data-edge] > *{position:relative}
+.fx.js-motion [data-fx=cascade]:not(.fx-in) > *{opacity:0}
+.js-motion [data-fx=cascade].fx-in:not(.fx-done) > *{animation:fx-up .32s var(--ease-out) calc(var(--k,0)*30ms) backwards}
+.js-motion [data-edge].fx-in:not(.fx-done) > *::before{content:"";position:absolute;inset:-1px;border:1.5px solid var(--blue-400);border-radius:inherit;pointer-events:none;animation:fx-edge .46s ease calc(var(--k,0)*30ms + 40ms) both}
+[data-fx=scan]{position:relative}
+.fx.js-motion [data-fx=scan]:not(.fx-in){opacity:0}
+.js-motion [data-fx=scan].fx-in:not(.fx-done){animation:fx-up .36s var(--ease-out) backwards}
+.js-motion .bracket[data-fx=scan].fx-in:not(.fx-done)::before,.js-motion [data-fx=scan].fx-in:not(.fx-done) .bracket::before{animation:fx-lock .46s var(--ease-out) .04s backwards}
+.fx-scan{position:absolute;inset:0;z-index:30;overflow:hidden;border-radius:inherit;pointer-events:none}
+.fx-scan > i{position:absolute;left:0;right:0;top:-60px;height:62px;background:linear-gradient(0deg,#5F9FFA 0,#5F9FFA 2px,rgba(47,128,237,.2) 2px,rgba(47,128,237,0) 100%)}
+.js-motion.fx-lite .top .btn:not(.ghost)::after{animation:none}
+.fx-hud{position:fixed;left:14px;top:50%;z-index:40;display:none;align-items:center;gap:12px;writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg);font:500 .6875rem/1 var(--font-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--navy-300);pointer-events:none;transition:opacity .3s ease}
+@media (min-width:1101px){.fx-hud{display:flex}}
+.fx-hud.is-top{opacity:0}
+.fx-hud.on-light{color:var(--navy-500)}
+.fx-hud .hud-n{font-weight:600;color:var(--blue-400)}
+.fx-hud.on-light .hud-n{color:var(--blue-700)}
+.fx-hud .hud-ticks{display:flex;gap:4px}
+.fx-hud .hud-ticks i{display:block;width:8px;height:2px;border-radius:1px;background:currentColor;opacity:.3;transition:opacity .3s ease}
+.fx-hud .hud-l{inline-size:24ch;max-block-size:42vh;overflow:hidden;white-space:nowrap}
+.top nav a.fx-cur{color:#FFF}
+@supports (animation-timeline:scroll()){@media (prefers-reduced-motion:no-preference) and (hover:hover) and (pointer:fine) and (min-width:901px){.js-motion .hero.grid-48::after,.js-motion .page-hero.grid-48::after{top:-96px;bottom:-96px;animation:fx-par-grid linear both;animation-timeline:scroll(root);animation-range:0 100vh}.js-motion .hero .topo{animation:fx-par-topo linear both;animation-timeline:scroll(root);animation-range:0 100vh}}}
+html[data-motion=off] .progress-rail{display:none}
+.fx-spotted{position:relative;isolation:isolate}
+.fx-spot-clip{position:absolute;inset:0;z-index:-1;overflow:hidden;border-radius:inherit;pointer-events:none}
+.fx-spot{position:absolute;left:0;top:0;width:460px;height:460px;margin:-230px 0 0 -230px;border-radius:50%;background:radial-gradient(closest-side,rgba(95,159,250,.2),rgba(95,159,250,.07) 55%,rgba(95,159,250,0));opacity:0;transition:opacity .35s ease}
+.js-motion .fx-lit > .fx-spot-clip > .fx-spot{opacity:1}
+.fx-mag{transition:background-color var(--dur-hover) ease,border-color var(--dur-hover) ease,transform var(--dur-press) var(--ease-out)}
+html[data-motion=off] .fx-mag{translate:none!important;scale:none!important}
+.btn:not(.ghost):not(.stage *){position:relative;overflow:hidden;isolation:isolate}
+.btn:not(.ghost):not(.stage *):not(.sm){padding-right:19px}
+.btn.sm:not(.ghost):not(.stage *):not(.top *){padding-right:12px}
+.btn:not(.ghost):not(.stage *)::before{content:"";position:absolute;left:var(--rx,50%);top:var(--ry,50%);width:var(--rs,0px);height:var(--rs,0px);margin:calc(var(--rs,0px)/-2) 0 0 calc(var(--rs,0px)/-2);border-radius:50%;z-index:-1;background:radial-gradient(closest-side,rgba(255,255,255,.62),rgba(255,255,255,0));opacity:0;pointer-events:none}
+.btn:not(.ghost):not(.stage *)::after{content:"";flex:none;width:15px;height:11px;margin:0 -3px 0 -2px;background:currentColor;-webkit-mask:var(--fx-arr) center/contain no-repeat;mask:var(--fx-arr) center/contain no-repeat;transition:transform .28s var(--ease-out)}
+.btn:not(.ghost):not(.stage *):hover::after,.btn:not(.ghost):not(.stage *):focus-visible::after{transform:translateX(4px)}
+.btn:not(.ghost):not(.stage *):active::after{transform:translateX(7px)}
+.top .btn:not(.ghost)::after,.top .btn:not(.ghost):hover::after,.top .btn:not(.ghost):focus-visible::after,.top .btn:not(.ghost):active::after{position:absolute;top:0;bottom:0;left:0;width:42%;height:auto;margin:0;background:linear-gradient(100deg,rgba(255,255,255,0) 20%,rgba(255,255,255,.62) 50%,rgba(255,255,255,0) 80%);-webkit-mask:none;mask:none;transform:translateX(-130%) skewX(-18deg);transition:none;pointer-events:none}
+.js-motion .top .btn:not(.ghost)::after{animation:fx-shine 6.5s var(--ease-io) 2.6s infinite}
+.q-ask .q-approve.btn:not(.stage *)::after,.q-ask .q-approve.btn:not(.stage *):hover::after,.q-ask .q-approve.btn:not(.stage *):focus-visible::after,.q-ask .q-approve.btn:not(.stage *):active::after{width:13px;height:13px;margin:0;-webkit-mask-image:var(--fx-ck);mask-image:var(--fx-ck);transform:none}
+.q-ask .q-approve.btn:not(.stage *):hover::after{transform:scale(1.2)}
+.btn.ghost:not(.stage *){position:relative}
+.fx-trace{position:absolute;left:-1.5px;top:-1.5px;width:calc(100% + 3px);height:calc(100% + 3px);overflow:hidden;border-radius:var(--r-btn);pointer-events:none}
+.fx-trace rect{fill:none;stroke:var(--blue-400);stroke-width:3;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .55s var(--ease-io)}
+.btn.ghost:hover .fx-trace rect,.btn.ghost:focus-visible .fx-trace rect{stroke-dashoffset:0}
+.fx-tick{width:14px;height:14px;flex:none;margin-left:-3px;overflow:visible}
+.fx-tick .bx{fill:none;stroke:currentColor;stroke-width:1.8;opacity:.45;transition:opacity .2s ease}
+.fx-tick .c{fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .3s var(--ease-out) .04s}
+.motion-btn{display:inline-flex;align-items:center;gap:7px}
+.motion-btn::before{content:"";flex:none;width:10px;height:10px;background:currentColor;-webkit-mask:var(--fx-pause) center/contain no-repeat;mask:var(--fx-pause) center/contain no-repeat}
+.motion-btn[aria-pressed=true]::before{-webkit-mask-image:var(--fx-play);mask-image:var(--fx-play)}
+.lockup .mark .mk-br{transition:transform .35s var(--ease-out)}
+.lockup:hover .mark .mk-br{transform:translate(1.5px,-1.5px)}
+.arrow-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-weight:600;color:var(--accent-ink);text-underline-offset:4px}
+.arrow-link::after{content:"";flex:none;width:15px;height:11px;background:currentColor;-webkit-mask:var(--fx-arr) center/contain no-repeat;mask:var(--fx-arr) center/contain no-repeat;transition:transform .28s var(--ease-out)}
+.arrow-link:hover::after,.arrow-link:focus-visible::after{transform:translateX(4px)}
+.top nav a{position:relative;display:inline-block}
+.top nav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;border-radius:1px;background:var(--blue-400);transform:scaleX(0);transform-origin:right center;transition:transform .32s var(--ease-out)}
+.top nav a:hover::after,.top nav a:focus-visible::after,.top nav a.fx-cur::after,.top nav a[aria-current=page]::after{transform:scaleX(1);transform-origin:left center}
+.top nav a[aria-current=page]{box-shadow:none}
+@media (hover:none){.js-motion .btn{transition:background-color var(--dur-hover) ease,border-color var(--dur-hover) ease,transform var(--dur-press) var(--ease-out),scale .55s var(--ease-land)}.js-motion .btn:active{scale:.95;transition-duration:var(--dur-hover),var(--dur-hover),var(--dur-press),.08s}}
+.qz-st i{grid-area:1/1;padding:5px 8px;border-radius:5px;font-style:normal;text-align:center}
+.qz-st .s1{background:var(--blue-50);color:var(--blue-700);opacity:0}
+.qz-st .s2{background:var(--blue-100);color:var(--blue-800);opacity:0}
+.qz-st .s3{background:var(--amber-50);color:var(--amber-700)}
+.js-motion .qz-row{animation:qz-row .5s var(--ease-out) calc(var(--k,0)*180ms + 260ms) backwards}
+.js-motion .qz-row .s1{animation:qz-s1 1s linear calc(var(--k,0)*180ms + 260ms) both}
+.js-motion .qz-row .s2{animation:qz-s2 1s linear calc(var(--k,0)*180ms + 260ms) both}
+.js-motion .qz-row .s3{animation:qz-s3 1s linear calc(var(--k,0)*180ms + 260ms) both}
+.proof{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:14px;list-style:none;font-size:.875rem;font-weight:600;line-height:1.4;color:var(--soft)}
+.proof li{display:inline-flex;align-items:center;gap:7px}
+.proof .ck{width:16px;height:16px;flex:none;color:var(--ok);stroke-width:2.8}
+.proof .ck path{stroke-dashoffset:0}
+.fx.js-motion .proof[data-fx]:not(.fx-in) .ck path{stroke-dashoffset:1}
+.js-motion .proof[data-fx].fx-in:not(.fx-done) .ck path{animation:cl-draw .45s var(--ease-out) calc(var(--k,0)*65ms + 300ms) backwards}
+b > span[data-count]{display:inline-block;font-variant-numeric:tabular-nums}
+.cs-ok{position:absolute;inset:-1.5px;z-index:2;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:inherit;background:var(--green-300);color:var(--navy-950);font-weight:700;pointer-events:none;opacity:0;transform:translateY(105%)}
+.cs-ok svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.cs-ok path{stroke-dasharray:1;stroke-dashoffset:1}
+.is-sent > .cs-ok{opacity:1;transform:none}
+.is-sent > .cs-ok path{stroke-dashoffset:0}
+.js-motion .cs-ok{transition:transform .42s var(--ease-out),opacity .2s ease}
+.js-motion .cs-ok path{transition:stroke-dashoffset .45s var(--ease-out) .22s}
+.cf-badge{flex:none;width:30px;height:30px}
+.cf-badge svg{display:block;width:100%;height:100%;overflow:visible}
+.cf-badge circle{fill:var(--green-700)}
+.cf-badge path{fill:none;stroke:#FFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:0}
+.cf-beam{position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,rgba(21,173,110,.85) 0,rgba(21,173,110,.85) 2px,rgba(99,217,155,.22) 2px,rgba(99,217,155,0) 60px);opacity:0;transform:translateY(-100%)}
+.js .hero-visual .fld-say{display:block}
+.js .hero-visual .trio{gap:14px 12px;margin-top:24px}
+.js .hero-visual .trio:not(.keys) li{min-height:46px;margin-bottom:6px;padding:0 16px 2px;gap:7px;border-radius:11px}
+.js .hero-visual .trio:not(.keys) li b{font-weight:800}
+@media (max-width:420px){.js .hero-visual .trio{gap:12px 8px}.js .hero-visual .trio:not(.keys) li{padding:0 11px 2px;font-size:.875rem}}
+.top .btn:not(.ghost)::after{z-index:-1;opacity:.5}
+.hero.has-fld .hero-grid{grid-template-columns:minmax(0,1.14fr) minmax(0,.86fr)}
+.hero.has-fld h1{max-width:none;font-size:clamp(2.1rem,1rem + 3.6vw,4.25rem);line-height:1.04;text-wrap:balance}
+.fld{position:relative;height:min(68vh,600px);min-height:340px}
+.fld canvas{position:absolute;left:-16%;top:-10%;width:132%;height:120%;display:none;pointer-events:none}
+.fld.is-live canvas{display:block}
+.fld-still{position:absolute;left:50%;top:50%;width:min(52%,300px);transform:translate(-50%,-50%);overflow:visible}
+.fld.is-live .fld-still{display:none}
+.fld-say{position:relative;min-height:1.5em;text-align:center;font:600 1.0625rem/1.5 var(--font-sans);color:#FFF}
+html:not(.js) .fld-say{display:none}
+@media (max-width:370px){.fld-say{min-height:3em}}
+.fld-cap{position:relative;margin-top:2px;text-align:center;font:500 var(--fs-micro)/1.5 var(--font-mono);letter-spacing:.06em;color:var(--navy-300)}
+.hero.has-fld .hero-glow{inset:4% 8% 8% 8%}
+.trio.keys{gap:14px 12px;margin-top:24px}
+.trio.keys li{padding:6px 0 0;border:0;border-radius:0;background:none}
+.key{all:unset;box-sizing:border-box;display:block;border-radius:12px;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;-webkit-user-select:none;user-select:none}
+.key .cap{position:relative;display:inline-flex;align-items:center;gap:7px;min-height:46px;padding:0 17px 2px;border-radius:11px;font:600 .9375rem/1 var(--font-sans);color:var(--navy-100);white-space:nowrap;background:linear-gradient(180deg,#203D66 0%,#152B4C 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.24),inset 0 -1px 0 rgba(0,0,0,.4),0 6px 0 #14305A,0 7px 0 0 #020812,0 16px 20px -10px rgba(0,0,0,.75);transform:translateY(-6px);transition:transform .16s var(--ease-out),box-shadow .16s var(--ease-out),color .2s ease,background-color .2s ease}
+.key .cap b{color:var(--blue-300);font-weight:800}
+.key .cap::after{content:"";position:absolute;left:15px;right:15px;bottom:7px;height:2px;border-radius:2px;background:var(--blue-400);opacity:0;transition:opacity .2s ease}
+@media (hover:hover){.key:hover .cap{transform:translateY(-7px);color:#FFF}}
+.key:active .cap,.key[aria-pressed=true] .cap{transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.1),inset 0 -1px 0 rgba(0,0,0,.4),0 1px 0 #14305A,0 2px 0 0 #020812,0 6px 10px -6px rgba(0,0,0,.75)}
+.key:active .cap{transform:none}
+.key[aria-pressed=true] .cap{color:#FFF}
+.key[aria-pressed=true] .cap::after{opacity:1;box-shadow:0 0 10px var(--blue-400)}
+.key[data-k=mark][aria-pressed=true] .cap::after{background:var(--hot);box-shadow:0 0 12px var(--hot)}
+.key[data-k=mark][aria-pressed=true] .cap b{color:#FF8A78}
+.key:focus-visible{outline:3px solid var(--focus);outline-offset:5px}
+@media (forced-colors:active){.key .cap{border:1px solid ButtonText}.key[aria-pressed=true] .cap{border:3px solid Highlight}}
+.hero-visual .trio{justify-content:center}
+.fld-pause{display:none}
+@media (max-width:760px){.js .fld-pause{display:block;position:relative;min-height:44px;margin:10px auto -6px;color:var(--navy-200);font-size:var(--fs-sm)}}
+@media (max-width:1020px){.hero.has-fld .hero-grid{grid-template-columns:minmax(0,1fr);gap:clamp(1.25rem,1rem + 2vw,2.25rem)}.fld{height:min(34vh,280px);height:min(34svh,280px);min-height:200px}.fld-cap{margin-top:14px}.fld canvas{left:-8%;width:116%}}
+@media (max-width:560px){.hero{padding-top:18px}.hero.has-fld h1{margin-top:10px;font-size:clamp(2.375rem,1.4rem + 4vw,2.875rem)}.hero.has-fld{position:relative;isolation:isolate}.hero.has-fld .hero-visual{position:static}.hero.has-fld .fld{position:absolute;top:40px;right:-20%;width:80%;height:300px;min-height:0;opacity:.55;z-index:-1;pointer-events:none}.hero.has-fld .hero-glow{display:none}.hero .lead{margin-top:12px;font-size:1.0625rem;line-height:1.5}.hero .ctas{margin-top:16px;gap:10px}.hero .ctas .btn{width:100%}.hero .micro{margin-top:10px}}
+@media (max-width:380px){.hero .eyebrow{letter-spacing:.06em}}
+@media (max-width:340px){.hero .eyebrow{font-size:.6875rem;letter-spacing:.03em}}
+@media (max-width:420px){.trio.keys{gap:12px 8px}.key .cap{padding:0 12px 2px;font-size:.875rem}.key .cap::after{left:11px;right:11px}}
+.st-prog,.st-ticks{display:none}
+.st-live{--st-step:70;height:calc(100vh + var(--st-n,3)*var(--st-step)*1vh)}
+@supports (height:100svh){.st-live{height:calc(100svh + var(--st-n,3)*var(--st-step)*1svh)}}
+.st-live h2{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.st-live .st-ticks{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;font:500 var(--fs-micro)/1 var(--font-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--navy-400)}
+.st-ticks li{display:inline-flex;align-items:center;gap:8px;transition:color .2s ease}
+.st-ticks li::before{content:"";flex:none;width:16px;height:16px;background:currentColor;-webkit-mask:var(--box) center/100% 100% no-repeat;mask:var(--box) center/100% 100% no-repeat}
+.st-ticks li.done{color:var(--green-300)}
+.st-ticks li.done::before,.st-ticks li:last-child.on::before{-webkit-mask-image:var(--ck-box);mask-image:var(--ck-box)}
+.sg-sent .sg-fine,.sg-sent .sg-status,.sg-sent .lead,.sg-sent .eyebrow,.sg-sent h2,.sg-sent .sg-alt{display:none}
+.lab-mark::before{opacity:1}
+.js-motion .lab-mark::before{transition:transform .42s var(--ease-land),opacity .2s ease}
+.lab-beam{position:absolute;left:0;right:0;top:0;z-index:30;height:62px;margin-top:-62px;pointer-events:none;opacity:0;background:linear-gradient(0deg,#5F9FFA 0,#5F9FFA 2px,rgba(47,128,237,.2) 2px,rgba(47,128,237,0) 100%)}
+.lab-clip{position:absolute;inset:0;z-index:30;overflow:hidden;border-radius:inherit;pointer-events:none}
+.pv{display:none;gap:4px;margin:12px 24px 0;padding:4px;border:1px solid rgba(167,181,202,.14);border-radius:var(--r-md);background:var(--navy-850)}
+.pv-b{flex:1 1 0;min-width:0;min-height:44px;padding:4px 6px;font:600 .8125rem/1.15 var(--font-sans);color:var(--navy-200);background:none;border:0;border-radius:var(--r-sm);cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.pv-b b{margin-right:6px;font:600 .6875rem/1 var(--font-mono);color:var(--blue-300)}
+.pv-b[aria-pressed=true]{color:var(--navy-950);background:var(--blue-300)}
+.pv-b[aria-pressed=true] b{color:var(--navy-800)}
+.js-motion .pv-b{transition:background-color .18s ease,color .18s ease}
+@media (max-width:600px){.demo-head,.proto-bar,.stage,.demo-notes,.pv{margin-left:12px;margin-right:12px}.pv{margin-top:10px}}
+.cursor{position:absolute;left:0;top:0;z-index:20;pointer-events:none;opacity:0;display:flex;align-items:flex-start;gap:4px;transition:transform .7s var(--ease-io),opacity .2s ease}
+.cursor svg{width:18px;height:18px;fill:var(--navy-900);stroke:#FFFFFF;stroke-width:1.3;transition:transform .12s ease;transform-origin:2px 1px}
+.cursor span{margin-top:14px;font:600 .6875rem/1 var(--font-mono);color:#FFFFFF;background:var(--navy-900);padding:4px 7px;border-radius:4px;box-shadow:0 0 0 1px rgba(255,255,255,.25)}
+.cursor-rh i{display:block;width:14px;height:14px;margin-top:2px;border:2.5px solid #FFFFFF;border-radius:4px;box-shadow:3px -3px 0 0 var(--blue-500)}
+.cursor-rh span{background:var(--blue-700)}
+.cursor.down svg,.cursor.down i{transform:scale(.88)}
+@media (prefers-reduced-motion:reduce){.cursor{display:none}}
+html[data-motion=off] .cursor{display:none}
+@media (forced-colors:active){.lab,.lab-dock,.proto-bar,.pv{border:1px solid CanvasText}.pv-b[aria-pressed=true]{background:Highlight;color:HighlightText}}
+@keyframes rail{to{transform:scaleX(1)}}
+@keyframes pulse{from{transform:scale(1);opacity:1}to{transform:scale(3.4);opacity:0}}
+@keyframes scan{to{transform:translateX(100%)}}
+@keyframes mk-br{from{opacity:0;transform:translate(-12%,10%)}}
+@keyframes mk-bx{from{transform:scale(.96)}}
+@keyframes mk-ck{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fx-draw{from{transform:scaleX(0)}}
+@keyframes fx-rise{from{opacity:0;transform:translateY(.4em)}}
+@keyframes fx-up{from{opacity:0;transform:translateY(14px)}}
+@keyframes fx-edge{0%{opacity:0}30%{opacity:1}100%{opacity:0}}
+@keyframes fx-lock{from{opacity:0;transform:translate(-16px,16px)}}
+@keyframes fx-par-grid{to{transform:translateY(64px)}}
+@keyframes fx-par-topo{to{transform:translateY(110px)}}
+@keyframes fx-shine{0%{transform:translateX(-130%) skewX(-18deg)}16%,100%{transform:translateX(330%) skewX(-18deg)}}
+@keyframes qz-row{from{opacity:0;transform:translateY(12px)}}
+@keyframes qz-s1{0%,38%{opacity:1}46%,100%{opacity:0}}
+@keyframes qz-s2{0%,38%{opacity:0}46%,74%{opacity:1}82%,100%{opacity:0}}
+@keyframes qz-s3{0%,74%{opacity:0;transform:scale(.9)}86%{opacity:1;transform:scale(1.06)}100%{opacity:1;transform:none}}
+@keyframes cl-draw{from{stroke-dashoffset:1}}
+</style>
+<script>(function (d) {
+var h = d.documentElement, off = false;
+if (/(^| )js( |$)/.test(h.className)) return;
+try { off = localStorage.getItem("rh-motion") === "off"; } catch (e) {}
+if (off) h.setAttribute("data-motion", "off");
+var motion = !off && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+h.className += " js" + (motion ? " js-motion" : "");
+if ("onpagereveal" in window) window.addEventListener("pagereveal", function (e) {
+if (e.viewTransition && h.getAttribute("data-motion") === "off") { try { e.viewTransition.skipTransition(); } catch (x) {} }
+});
+window.addEventListener("load", function () {
+var parts = d.querySelectorAll("[data-needs]"), i;
+for (i = 0; i < parts.length; i++) if ((" " + h.className + " ").indexOf(" " + parts[i].getAttribute("data-needs") + " ") < 0) parts[i].className += " no-js";
+});
+})(document);</script>
+<!-- head:end -->
+<script src="assets/boot.js?v=e06e86c5" defer></script>
+<script src="assets/motion.js?v=813f7c7b" defer></script>
+<script src="assets/nav.js?v=ec2a8562" defer></script>
+<script src="assets/services-data.js?v=cf00a2d5" defer></script>
+<script src="assets/nwa-map.js?v=3028ca99" defer></script>
+<script src="assets/config.js?v=b6b20fe0" defer></script>
+<script src="assets/site.js?v=9dc9193c" defer></script>
+<script src="assets/interest.js?v=5ac9c564" defer></script>
+<script src="assets/close.js?v=4fa18f69" defer></script>
+<script src="assets/field-shapes.js?v=d136792b" defer></script>
+<script src="assets/field.js?v=7e502d99" defer></script>
+<script src="assets/lab.js?v=4f124014" defer></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-2-1.4-2 1.4-2-1.4-2 1.4-2-1.4L6 21z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M9 8h6M9 12h6M9 16h3" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-4.5 4v-4h0A1.5 1.5 0 0 1 4 14.5z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><path d="M8 9h8M8 12h5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/><path d="M8.5 14.5l2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3.5 7A1.5 1.5 0 0 1 5 5.5h4.2l2 2.2H19A1.5 1.5 0 0 1 20.5 9.2v8.3A1.5 1.5 0 0 1 19 19H5a1.5 1.5 0 0 1-1.5-1.5z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M10 3v3.5M14 3v3.5M10 17.5V21M14 17.5V21M3 10h3.5M3 14h3.5M17.5 10H21M17.5 14H21" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/><path d="M10 12.2l1.4 1.3 2.6-2.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.1-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.9 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.4" fill="none" stroke="currentColor" stroke-width="1.75"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M4 12h12M12 7l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 5v14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M11 12l8-8M16 7l2.5 2.5M14 9l1.8 1.8" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.75"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arr" viewBox="0 0 28 12"><path d="M1 6h24M20 1.5L25.5 6 20 10.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-ck" viewBox="0 0 24 24"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></symbol>
+  </defs>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- chrome:header:start -->
+<header class="top dark" id="top">
+  <div class="wrap-wide">
+    <a class="lockup" href="#top" aria-label="Right Hand NWA, back to top">
+      <svg class="mark" viewBox="4 5 56 54" aria-hidden="true"><path class="mk-br" d="M23 5h30a7 7 0 0 1 7 7v31a6 6 0 0 1-6 6V13a2 2 0 0 0-2-2H22V6a1 1 0 0 1 1-1Z"/><rect class="mk-bx" x="6.5" y="17.5" width="39" height="39" rx="4.5" fill="none" stroke-width="5"/><path class="mk-ck" d="M17.5 39.5l5.75 5L37 32" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/></svg>
+      <b>Right Hand <span>NWA</span></b>
+    </a>
+    <a class="btn sm" href="#checkup" data-go="checkup">Get my free check-up</a>
+    <nav aria-label="Site"><ul>
+      <li><a href="#demos">Prototypes</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="services/">Services</a></li>
+      <li><a href="about/">About</a></li>
+    </ul></nav>
+    <button type="button" class="motion-btn" id="motion-btn" aria-pressed="false">Pause motion</button>
+    <a class="menu-btn" href="#site-menu" data-menu-open><svg class="i" aria-hidden="true"><use href="#i-menu"/></svg><span>Menu</span></a>
+    <span class="progress-rail" aria-hidden="true"></span>
+  </div>
+</header>
+<!-- chrome:header:end -->
+
+<main id="main">
+
+<section class="hero has-fld dark grid-48" data-hud="Home" aria-labelledby="hero-h">
+  <svg class="topo" viewBox="0 0 600 400" aria-hidden="true" preserveAspectRatio="none">
+    <path d="M-20 380 C 80 330, 160 350, 240 300 S 400 250, 470 290"/>
+    <path d="M-20 350 C 70 300, 150 320, 230 268 S 380 220, 450 255"/>
+    <path d="M-20 318 C 60 270, 140 290, 220 238 S 360 192, 425 222"/>
+    <path d="M-20 286 C 50 240, 130 258, 205 210 S 335 168, 395 190"/>
+    <path d="M10 255 C 70 214, 135 228, 196 186 S 305 150, 360 162"/>
+    <path d="M50 226 C 100 194, 150 202, 196 172 S 280 140, 318 146"/>
+    <path d="M100 200 C 135 182, 165 184, 196 166 S 250 146, 270 148"/>
+  </svg>
+  <div class="wrap-wide hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">For NWA shops, salons, trades and offices</p>
+      <h1 id="hero-h">Hand off the admin. Keep the final say.</h1>
+      <p class="lead">We're four University of Arkansas students. We take receipts, invoices, missed calls and follow-ups off your plate. AI writes the first draft, one of us checks it, and nothing goes out until you say yes.</p>
+      <div class="ctas">
+        <a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a>
+        <a class="btn ghost" href="#first-handoff">Find my first handoff · 30 seconds</a>
+      </div>
+      <p class="micro">Free. At your shop or on video. You keep the plan, hire us or not.</p>
+      <ul class="proof hero-proof" aria-label="Three things you can count on">
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>No passwords needed</li>
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Reply within one business day</li>
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Month to month. Stop with one email.</li>
+      </ul>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="fld" id="fld" aria-hidden="true"><canvas></canvas><svg class="fld-still" viewBox="4 5 56 54"><path fill="#2F80ED" d="M23 5h30a7 7 0 0 1 7 7v31a6 6 0 0 1-6 6V13a2 2 0 0 0-2-2H22V6a1 1 0 0 1 1-1Z"/><rect x="6.5" y="17.5" width="39" height="39" rx="4.5" fill="none" stroke="#FFF" stroke-width="5"/><path d="M17.5 39.5l5.750 5L37 32" fill="none" stroke="#FFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <p class="fld-say" id="fld-say" aria-hidden="true"></p>
+      <ul class="trio" aria-label="How every task works">
+        <li><b>AI</b> drafts.</li>
+        <li><b>We</b> check.</li>
+        <li><b>You</b> approve.</li>
+      </ul>
+      <p class="fld-cap" id="fld-cap">Three steps on every task.</p>
+      <button type="button" class="linkbtn fld-pause" aria-pressed="false">Pause motion</button>
+    </div>
+  </div>
+</section>
+
+<section class="band dark who" id="team" data-hud="Who" aria-labelledby="team-h">
+  <div class="wrap who-grid">
+    <div class="who-copy">
+      <div class="sec-h" data-fx="head">
+        <p class="eyebrow">01 · Who</p>
+        <h2 id="team-h">Four people you can <span class="sw">meet</span>.</h2>
+        <p class="lead">We're new. You won't find reviews here yet, because we won't make them up. What you will find is sample work you can try on this page, and four people you can meet.</p>
+      </div>
+      <ul class="team" data-fx="cascade"><!-- team:start -->
+        <li><span class="ini" aria-hidden="true">JV</span><b>Jackson Varela</b><span class="role">University of Arkansas student</span></li>
+        <li><span class="ini" aria-hidden="true">AW</span><b>Annie Wagner</b><span class="role">University of Arkansas student</span></li>
+        <li><span class="ini" aria-hidden="true">AE</span><b>Abigail Estes</b><span class="role">University of Arkansas student</span></li>
+        <li><span class="ini" aria-hidden="true">BG</span><b>Bella Gambaro</b><span class="role">University of Arkansas student</span></li>
+      <!-- team:end --></ul>
+      <p class="who-more"><a class="arrow-link" href="about/">Meet us</a></p>
+    </div>
+    <div class="who-map">
+      <p class="who-where"><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg><span>At your shop, a coffee shop, or on video. Anywhere in Benton or Washington County.</span></p>
+      <div class="win bracket dark" data-fx="scan">
+        <div class="win-bar"><span class="path">right-hand / queue</span><span class="tag">Sample data</span></div>
+        <div id="nwa-map" class="nwa"><!-- nwa:start --><div class="nwa-layout"><svg class="nwa-svg" viewBox="0 0 560 520" role="img" aria-labelledby="nwa-t"><title id="nwa-t">Schematic map of Northwest Arkansas: Interstate 49 runs from Bella Vista through Bentonville, Rogers, Springdale and Fayetteville, with Siloam Springs to the west.</title><defs><pattern id="nwa-dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="currentColor" opacity=".18"/></pattern></defs><rect width="560" height="520" fill="url(#nwa-dots)"/><path class="nwa-area" transform="translate(-32 0)" d="M60 300 C 70 210, 230 150, 300 60 C 340 10, 520 20, 540 110 C 560 220, 530 420, 470 495 C 420 540, 330 520, 320 470 C 300 400, 200 400, 120 390 C 70 385, 55 345, 60 300 Z"/><path class="nwa-hwy-bg" d="M410 336 Q314 343 252.5 333.5 Q191 324 134 329.5 L77 335"/><path class="nwa-hwy-bg" d="M279 44 Q331 104 355.5 133.5 Q380 163 391 184 Q402 205 407 239.5 Q412 274 413 304 Q414 334 408 361.5 Q402 389 397.5 414 Q393 439 389.5 464.5 L386 490"/><path class="nwa-hwy" pathLength="100" d="M279 44 Q331 104 355.5 133.5 Q380 163 391 184 Q402 205 407 239.5 Q412 274 413 304 Q414 334 408 361.5 Q402 389 397.5 414 Q393 439 389.5 464.5 L386 490"/><path class="nwa-hwy west" pathLength="100" d="M410 336 Q314 343 252.5 333.5 Q191 324 134 329.5 L77 335"/><g class="nwa-shield" transform="translate(369 231)"><rect width="34" height="26" rx="6"/><text x="17" y="18.5" text-anchor="middle">49</text></g><circle class="nwa-small" cx="441" cy="91" r="3.4"/><circle class="nwa-small" cx="292" cy="177" r="3.4"/><circle class="nwa-small" cx="427" cy="274" r="3.4"/><circle class="nwa-small" cx="325" cy="470" r="3.4"/><circle class="nwa-small" cx="397" cy="386" r="3.4"/><circle class="nwa-small" cx="340" cy="232" r="3.4"/><g class="nwa-city" style="--i:0" data-city="Bella Vista"><circle class="nwa-pulse" cx="302" cy="66" r="7"/><circle class="nwa-dot" cx="302" cy="66" r="8"/><text x="286" y="73" text-anchor="end">Bella Vista</text></g><g class="nwa-city" style="--i:1" data-city="Bentonville"><circle class="nwa-pulse" cx="359" cy="166" r="7"/><circle class="nwa-dot" cx="359" cy="166" r="8"/><text x="343" y="173" text-anchor="end">Bentonville</text></g><g class="nwa-city" style="--i:2" data-city="Rogers"><circle class="nwa-pulse" cx="438" cy="203" r="7"/><circle class="nwa-dot" cx="438" cy="203" r="8"/><text x="454" y="210" text-anchor="start">Rogers</text></g><g class="nwa-city" style="--i:3" data-city="Springdale"><circle class="nwa-pulse" cx="429" cy="336" r="7"/><circle class="nwa-dot" cx="429" cy="336" r="8"/><text x="445" y="343" text-anchor="start">Springdale</text></g><g class="nwa-city" style="--i:4" data-city="Fayetteville"><circle class="nwa-pulse" cx="404" cy="450" r="7"/><circle class="nwa-dot" cx="404" cy="450" r="8"/><text x="420" y="457" text-anchor="start">Fayetteville</text></g><g class="nwa-city" style="--i:5" data-city="Siloam Springs"><circle class="nwa-pulse" cx="68" cy="335" r="7"/><circle class="nwa-dot" cx="68" cy="335" r="8"/><text x="58" y="369" text-anchor="start">Siloam Springs</text></g></svg><div class="queue"><p class="q-head"><span>Right Hand queue</span><span class="mono">Tue Nov 3 · sample</span></p><ol class="q-list"><li class="q-row" style="--i:0" data-city="Rogers"><span class="q-city">Rogers</span><b class="q-task">Missed call</b><span class="q-note">Text-back ready in your wording</span><span class="q-st"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Prepared</span><span class="q-scan" aria-hidden="true"></span></li><li class="q-row" style="--i:1" data-city="Springdale"><span class="q-city">Springdale</span><b class="q-task">Receipt photo</b><span class="q-note">Matched to the card charge</span><span class="q-st"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Prepared</span><span class="q-scan" aria-hidden="true"></span></li><li class="q-row" style="--i:2" data-city="Bella Vista"><span class="q-city">Bella Vista</span><b class="q-task">Invoice past due</b><span class="q-note">Friendly reminder drafted</span><span class="q-st"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Prepared</span><span class="q-scan" aria-hidden="true"></span></li><li class="q-row q-ask" style="--i:3" data-city="Siloam Springs"><span class="q-city">Siloam Springs</span><b class="q-task">Quote request</b><span class="q-note">Reply drafted. Needs your OK.</span><button type="button" class="btn sm q-approve">Approve</button><span class="q-scan" aria-hidden="true"></span></li></ol><p class="sr-only" aria-live="polite" data-hero-live></p></div></div><p class="map-cap">Northwest Arkansas. Schematic, not to scale. Sample tasks.</p><!-- nwa:end --></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" href="assets/bundle-home.css?v=47888320" id="css">
+
+<section class="band demos-band dark" id="demos" data-hud="Prototypes" aria-labelledby="demos-h">
+  <div class="wrap">
+    <div class="sec-h" data-fx="head">
+      <p class="eyebrow">02 · Prototypes</p>
+      <h2 id="demos-h">Don't take our word for it. Try the <span class="sw">work</span>.</h2>
+      <p class="lead">Prototypes we built for made-up Northwest Arkansas businesses. Scripted, not live AI. Nothing you type leaves this page.</p>
+    </div>
+    <div class="rail">
+      <div class="rail-bar" aria-hidden="true"></div>
+      <ul class="rail-list" aria-label="Prototypes">
+        <li class="rail-item"><a class="tk-link" href="#demo-calls" id="tab-calls"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Rogers</span> <span class="tk-title">Missed call to booked visit</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-inbox" id="tab-inbox"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Bentonville</span> <span class="tk-title">Inbox sorted by 8 AM</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-receipts" id="tab-receipts"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Springdale</span> <span class="tk-title">Receipt to expense review</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-invoices" id="tab-invoices"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Bella Vista</span> <span class="tk-title">Invoice follow-ups</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-automation" id="tab-automation"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Siloam Springs</span> <span class="tk-title">Automation builder</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-report" id="tab-report"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Fayetteville</span> <span class="tk-title">Monday owner report</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-quotes" id="tab-quotes"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Centerton</span> <span class="tk-title">Voice note to priced quote</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+        <li class="rail-item"><a class="tk-link" href="#demo-reviews" id="tab-reviews"><span class="tk-swing"><span class="tk-hook" aria-hidden="true"></span><span class="tk-lift"><span class="tk-clip" aria-hidden="true"></span><span class="tk-paper"><span class="tk-town">Lowell</span> <span class="tk-title">Review replies in your voice</span> <span class="tk-go"><span class="tk-go-t">Open</span> <span class="tk-dot" aria-hidden="true"><svg class="tk-arrow" viewBox="0 0 12 12" focusable="false"><path d="M6 1.6v8.2M2.3 6.3 6 10l3.7-3.7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></span></span></span></span></a></li>
+      </ul>
+    </div>
+
+    <div class="lab" id="lab" data-fx="scan">
+      <div class="lab-dock"><button type="button" class="dock-btn" data-step="-1" aria-label="Previous prototype"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button><p class="dock-at"><span class="dock-n">01</span><span class="dock-of">/ 08</span><span class="dock-t">Missed call to booked visit</span></p><button type="button" class="dock-btn" data-step="1" aria-label="Next prototype"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+      <section class="demo" id="demo-calls" aria-labelledby="demo-calls-h" data-ask="calls">
+        <div class="demo-head"><span class="num" data-fx="scramble">01 · Rogers · Customers and front desk</span><h3 id="demo-calls-h">A missed call becomes a booked visit</h3><p>Tuesday, 6:52 PM. The owner of Cold Hollow Heating &amp; Air is under a house. The caller gets a text in wording the owner approved, picks a real open slot, and the owner confirms it.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Missed-call text-back · </span>Cold Hollow Heating &amp; Air</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="calls"></div>
+        <details class="demo-notes"><summary>Before any text goes out</summary><ul><li>Business texting needs carrier registration (A2P 10DLC). We set that up with you before anything sends.</li><li>Every first text names your business and says Reply STOP to opt out.</li><li>We do not set up AI voice calls to your customers.</li></ul></details>
+      </section>
+      <section class="demo" id="demo-inbox" aria-labelledby="demo-inbox-h" data-ask="email">
+        <div class="demo-head"><span class="num" data-fx="scramble">02 · Bentonville · Customers and front desk</span><h3 id="demo-inbox-h">The inbox, sorted before you open the shop</h3><p>Eight emails came in overnight at Linden &amp; Loom. Each one lands in Needs you, Draft ready or FYI, with replies waiting in Drafts. You send.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Inbox triage · </span>Linden &amp; Loom</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="inbox"></div>
+      </section>
+      <section class="demo" id="demo-receipts" aria-labelledby="demo-receipts-h" data-ask="receipts">
+        <div class="demo-head"><span class="num" data-fx="scramble">03 · Springdale · Money admin</span><h3 id="demo-receipts-h">A receipt photo becomes a checked expense review</h3><p>Right Hand reads the receipt, matches it to the card charge and asks Ozark Paws Grooming one question. The October review shows its sources and math before the owner approves.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Receipt capture and monthly review · </span>Ozark Paws Grooming</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="receipts"></div>
+      </section>
+      <section class="demo" id="demo-invoices" aria-labelledby="demo-invoices-h" data-ask="invoices">
+        <div class="demo-head"><span class="num" data-fx="scramble">04 · Bella Vista · Money admin</span><h3 id="demo-invoices-h">Invoice follow-ups you can scrub through</h3><p>One overdue invoice for Pinyon Hollow Landscapes, from the day it is sent to the day it is paid. Every reminder is drafted for the owner's OK. Late fees and terms stay the owner's call.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Invoice follow-ups · </span>Pinyon Hollow Landscapes</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="invoices"></div>
+      </section>
+      <section class="demo" id="demo-automation" aria-labelledby="demo-automation-h" data-ask="ai">
+        <div class="demo-head"><span class="num" data-fx="scramble">05 · Siloam Springs · AI in your business</span><h3 id="demo-automation-h">An automation between apps you already use</h3><p>A quote request comes in on the Flint Row Auto Care website. AI sorts it, checks open bays and drafts the reply. Nothing sends until the owner approves the gate.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Automation builder · </span>Flint Row Auto Care</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="automation"></div>
+      </section>
+      <section class="demo" id="demo-report" aria-labelledby="demo-report-h" data-ask="weekly">
+        <div class="demo-head"><span class="num" data-fx="scramble">06 · Fayetteville · AI in your business</span><h3 id="demo-report-h">A Monday report that shows its work</h3><p>Every sentence in the Cobalt &amp; Comb Salon summary points at the chart it came from. Pick a line and its source lights up.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Weekly owner report · </span>Cobalt &amp; Comb Salon</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="report"></div>
+      </section>
+      <section class="demo" id="demo-quotes" aria-labelledby="demo-quotes-h" data-ask="quotes">
+        <div class="demo-head"><span class="num" data-fx="scramble">07 · Centerton · Money admin</span><h3 id="demo-quotes-h">A job-site voice note becomes a priced quote</h3><p>Thursday, 4:40 PM. The owner of Ridgeline Fence &amp; Deck walks a backyard, then records a 20-second voice note from the truck. Right Hand prices it from the owner's own price sheet, asks one question, and nothing is sent until the owner approves.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Voice note to quote · </span>Ridgeline Fence &amp; Deck</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="quotes"></div>
+      </section>
+      <section class="demo" id="demo-reviews" aria-labelledby="demo-reviews-h" data-ask="reviews">
+        <div class="demo-head"><span class="num" data-fx="scramble">08 · Lowell · Local presence and reputation</span><h3 id="demo-reviews-h">Every review gets a reply in your voice</h3><p>Three reviews came in overnight at Juniper Street Tacos. Two get a reply drafted in the owner's own words for her OK, and the angry one-star stops at her desk, because that call is hers.</p></div>
+        <div class="proto-bar"><h4 class="proto-title"><span class="pt-what">Review replies in your voice · </span>Juniper Street Tacos</h4><span class="tag-s">Sample</span><span class="pill"><i></i><span>Ready</span></span><button type="button" class="bar-btn" aria-pressed="false" disabled><span class="bl">Watch it play</span><span class="bs">Play</span></button></div>
+        <div class="stage" data-demo="reviews"></div>
+      </section>
+      <div class="lab-cta"><p class="lab-ask">Want this at your shop?</p><a class="btn" href="#checkup" data-go="checkup" data-ask="calls">Get my free 30-minute check-up</a><p class="micro">Free. At your shop or on video. You keep the plan, hire us or not.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band light qz-band" id="first-handoff" data-hud="First handoff" data-needs="qz-on" aria-labelledby="qz-h">
+  <div class="wrap qz-grid">
+    <div class="qz-left">
+      <div class="sec-h" data-fx="head">
+        <p class="eyebrow">03 · First handoff</p>
+        <h2 id="qz-h">Find your first handoff in 30 <span class="sw">seconds</span>.</h2>
+        <p class="lead">Three taps. You get a sample Admin Map for a business like yours. Nothing leaves this page.</p>
+      </div>
+      <p class="qz-nojs">Tell us your kind of business and what eats your time in the <a href="#checkup">check-up form</a>, and we will send you a real Admin Map.</p>
+      <div class="qz-ask qz-ui" id="qz" data-fx="scan">
+        <div class="qz-top" aria-hidden="true"><span>Step <b data-qz-n>01</b> / 03 · <span data-qz-l>Business</span></span><span class="qz-bar"><i data-qz-bar></i></span></div>
+        <div class="qz-steps">
+          <fieldset class="qz-step is-on" data-step="1"><legend>What kind of business do you run?</legend><div class="qz-opts">
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="home">Home services</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="shops">Shops and restaurants</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="salons">Salons and studios</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="auto">Auto shops</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="supplier">Supplier and vendor offices</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="pro">Professional offices</button>
+          </div></fieldset>
+          <fieldset class="qz-step" data-step="2"><legend>What eats the most time?</legend><div class="qz-opts">
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Missed calls and texts">Missed calls and texts</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Email">Email</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Receipts and expenses">Receipts and expenses</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Invoices and follow-ups">Invoices and follow-ups</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Scheduling">Scheduling</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Paperwork and files">Paperwork and files</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Setting up AI and automations">Setting up AI and automations</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Weekly numbers">Weekly numbers</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Reviews and Google profile">Reviews and Google profile</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Not sure">Not sure</button>
+          </div><button type="button" class="linkbtn qz-back" data-back>Back</button></fieldset>
+          <fieldset class="qz-step" data-step="3"><legend>How do you like to meet?</legend><div class="qz-opts">
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="At my business">At my business</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Video">Video</button>
+            <button type="button" class="qz-opt" aria-pressed="false" data-v="Phone">Phone</button>
+          </div><button type="button" class="linkbtn qz-back" data-back>Back</button></fieldset>
+          <div class="qz-step qz-done" data-step="4">
+            <p class="qz-done-h"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Your sample is ready.</p>
+            <dl class="qz-sum"><div><dt>Business</dt><dd data-sum="who"></dd></div><div><dt>Eats the most time</dt><dd data-sum="eats"></dd></div><div><dt>Meet</dt><dd data-sum="mode"></dd></div></dl>
+            <div class="field qz-town"><label for="qz-town">Your town <span class="opt">(optional, we carry it into the check-up form)</span></label><select id="qz-town"><option value="">Pick your town</option><option>Bentonville</option><option>Rogers</option><option>Springdale</option><option>Fayetteville</option><option>Bella Vista</option><option>Siloam Springs</option><option>Lowell</option><option>Cave Springs</option><option>Centerton</option><option>Farmington</option><option>Prairie Grove</option><option>Other NWA town</option></select></div>
+            <button type="button" class="btn ghost sm" data-restart>Start over</button>
+          </div>
+        </div>
+        <p class="sr-only" id="qz-live" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="qz-outwrap qz-ui" data-fx="scan" data-fx-delay="140">
+      <div class="qz-out win dark bracket" id="qz-out">
+        <div class="win-bar"><span class="path">right-hand / first-handoff</span><span class="tag">Sample</span></div>
+        <ol class="qz-log" aria-hidden="true">
+          <li data-log="who"><span class="k">business</span><span class="v">waiting</span><svg class="tk" viewBox="0 0 24 24"><path pathLength="1" d="M6 12.5l4 4 8-9"/></svg></li>
+          <li data-log="eats"><span class="k">eats time</span><span class="v">waiting</span><svg class="tk" viewBox="0 0 24 24"><path pathLength="1" d="M6 12.5l4 4 8-9"/></svg></li>
+          <li data-log="mode"><span class="k">meet</span><span class="v">waiting</span><svg class="tk" viewBox="0 0 24 24"><path pathLength="1" d="M6 12.5l4 4 8-9"/></svg></li>
+          <li data-log="match"><span class="k">match</span><span class="v">waiting for three taps</span><svg class="tk" viewBox="0 0 24 24"><path pathLength="1" d="M6 12.5l4 4 8-9"/></svg></li>
+        </ol>
+        <figure class="amap qz-paper" aria-labelledby="qz-map-t">
+          <p class="t" id="qz-map-t" tabindex="-1">Your sample Admin Map</p>
+          <p class="s" data-qz-for>Built from your three taps · sample</p>
+          <ol class="qz-rows">
+            <li class="qz-ph"><b>Your first handoff</b><span>Waiting for your answers</span><em class="st">Waiting</em></li>
+            <li class="qz-ph"><b>Your second handoff</b><span>Waiting for your answers</span><em class="st">Waiting</em></li>
+            <li class="qz-ph"><b>Your third handoff</b><span>Waiting for your answers</span><em class="st">Waiting</em></li>
+          </ol>
+          <p class="qz-note"><b>Your real Admin Map</b> arrives within 3 business days of your free check-up.</p>
+          <i class="qz-beam" aria-hidden="true"></i>
+        </figure>
+        <div class="qz-foot">
+          <p class="qz-idle">Answer the three taps and your sample builds here.</p>
+          <div class="qz-go">
+            <div class="ctas"><a class="btn" href="#checkup" data-go="checkup" data-qz-go>Get my real Admin Map. Free check-up</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="story dark" id="story" data-hud="A sample week" aria-labelledby="story-h">
+  <div class="st-pin">
+    <canvas class="st-cv" aria-hidden="true"></canvas>
+    <div class="wrap st-in">
+      <div class="st-copy">
+        <p class="eyebrow">04 · A sample week</p>
+        <h2 id="story-h">What a week could look like.</h2>
+        <video class="st-vid" muted playsinline loop preload="none" poster="assets/story-poster.jpg" aria-hidden="true" tabindex="-1"><source src="assets/story.mp4?v=0eec1609" type="video/mp4"></video>
+        <ol class="st-list">
+          <li class="st-ch on" data-shape="phone" data-tick="Call"><h3>A missed call.</h3><p>The caller gets a text in wording you approved, picks a real open slot, and you confirm it.</p></li>
+          <li class="st-ch" data-shape="receipt" data-tick="Receipt"><h3>A receipt photo.</h3><p>Read, sorted and matched to the card charge. A person checks every category.</p></li>
+          <li class="st-ch" data-shape="doc" data-tick="Invoice"><h3>A late invoice.</h3><p>A polite reminder is drafted for your OK. Late fees stay your call.</p></li>
+          <li class="st-ch" data-shape="mark" data-tick="Your OK"><h3>Your OK.</h3><p>Nothing goes out in your name until you approve it.</p><a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a></li>
+        </ol>
+        <div class="st-prog" aria-hidden="true"><i></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band dark how" id="how" data-hud="How it works" aria-labelledby="how-h">
+  <div class="wrap">
+    <div class="sec-h" data-fx="head">
+      <p class="eyebrow">05 · How it works</p>
+      <h2 id="how-h">Owners want the busywork gone. Not their <span class="sw">control</span> over it.</h2>
+    </div>
+    <div class="why">
+      <div class="pstat" data-fx="scan"><b><span data-count="78">78</span>%</b><p>of small business owners surveyed don't fully trust AI to handle low-level tasks without oversight.</p><p class="src">Source: <a href="https://stacker.com/stories/small-business/34-small-businesses-dont-trust-ai-basic-tasks" target="_blank" rel="noopener noreferrer">Bluevine survey of 942 small business owners and financial decision-makers, April 2026, via Stacker</a></p></div>
+      <div class="why-read">
+        <p class="bridge">So we built Right Hand around oversight. The late invoice gets a polite, approved follow-up instead of a sticky note.</p>
+        <ol class="loop3" id="loop3" aria-label="Our method">
+          <li>AI drafts</li><li aria-hidden="true" class="arrw"><svg class="arr"><use href="#i-arr"/></svg></li>
+          <li>We check</li><li aria-hidden="true" class="arrw"><svg class="arr"><use href="#i-arr"/></svg></li>
+          <li>You approve</li>
+        </ol>
+      </div>
+    </div>
+    <h3 class="how-sub" id="steps-h">From first coffee to work off your plate.</h3>
+    <ol class="steps" data-fx="cascade" id="steps" aria-labelledby="steps-h">
+      <li class="step"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><h4>Check-up</h4><p>30 minutes at your shop or on video. We list your recurring admin with you.</p></li>
+      <li class="step"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><h4>Admin Map</h4><p>Within 3 business days: your top 3 handoffs, what AI drafts, what stays yours, and a flat quote if you want one.</p></li>
+      <li class="step"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><h4>One-month pilot</h4><p>We take one or two tasks. You approve every piece.</p></li>
+      <li class="step"><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><h4>Monthly help</h4><p>Month to month. Add or drop tasks any time. Stop with one email.</p></li>
+    </ol>
+    <div class="how-pair">
+      <div class="receipt paper" id="cost" data-fx="scan">
+        <p class="receipt-top" aria-hidden="true"><span>Right Hand NWA</span><span>Northwest Arkansas</span></p>
+        <h3 id="cost-h">What it costs</h3>
+        <ul class="cost" aria-labelledby="cost-h">
+          <li><b>The check-up:</b> <span><em>free.</em> 30 minutes. No card, no obligation to hire us.</span></li>
+          <li><b>Your Admin Map:</b> <span><em>free,</em> and yours to keep.</span></li>
+          <li><b>After that, only if you want help:</b> <span>one flat monthly price, in writing, before any work starts. It depends on which tasks you hand off, and your quote is good for 30 days.</span></li>
+          <li><b>Start small:</b> <span>a one-month pilot on one or two tasks, then month to month. No cancellation fee. Stop with one email.</span></li>
+          <li><b>No surprise tools:</b> <span>we start with what you already pay for, and if something new would help, you see the cost first.</span></li>
+        </ul>
+      </div>
+    <div class="af" id="af">
+      <div class="af-back" aria-hidden="true"></div>
+      <figure class="amap bracket" id="amap" aria-labelledby="amap-t">
+      <p class="t" id="amap-t">Admin Map</p>
+      <span class="af-stamp" aria-hidden="true">Yours to keep</span>
+      <p class="s">Ozark Paws Grooming, Springdale (made-up shop) · sample</p>
+      <ol>
+        <li><b>Monthly expense review</b><span>We prepare, you approve · About 20 minutes of your time to review (sample estimate)</span><em class="st">Needs your OK</em></li>
+        <li><b>Overdue invoice reminders</b><span>Reminders drafted for your OK · Late fees stay your call</span><em class="st">Needs your OK</em></li>
+        <li><b>Appointment reminders</b><span>Set up in the booking tool you already use · You approve the wording once</span><em class="st">Needs your OK</em></li>
+      </ol>
+      <div class="extra">
+        <p><b>Stays with your CPA:</b> quarterly taxes</p>
+        <p><b>Quick win this week:</b> a Gmail filter that sends every emailed receipt to one label</p>
+        <p><b>Quote:</b> written after your check-up</p>
+      </div>
+    </figure>
+      <div class="af-front">
+        <p class="af-l" aria-hidden="true"><b>Your Admin Map</b><span>Within 3 business days</span></p>
+        <button type="button" class="af-tog" aria-expanded="true" aria-controls="amap">Tuck away</button>
+        <div class="af-plate" aria-hidden="true">
+          <p><span>Client</span>Your business</p>
+          <p><span>Prepared by</span>Right Hand NWA</p>
+          <p><span>Inside</span>Top 3 tasks to hand off, one quick win, a flat written quote</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="ctas"><a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a></div>
+  </div>
+</section>
+
+<section class="band light" id="services" data-hud="Services" aria-labelledby="services-h">
+  <div class="wrap">
+    <div class="sec-h" data-fx="head">
+      <p class="eyebrow">06 · Services</p>
+      <h2 id="services-h">What we take, and what we never <span class="sw">touch</span>.</h2>
+      <p class="lead">Pick a line to see every service in it.</p>
+    </div>
+    <div class="svc-ledger">
+    <ul class="line-links" data-fx="cascade" aria-label="Service lines"><!-- services-teaser:start -->
+      <li><a href="services/#money-admin"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-receipt"/></svg></span><b>Money admin</b><span class="note">Prep only. You and your CPA decide.</span><span class="n">7 services</span></a></li>
+      <li><a href="services/#customers-and-front-desk"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-chat"/></svg></span><b>Customers and front desk</b><span class="note">Nothing goes out in wording you have not approved.</span><span class="n">7 services</span></a></li>
+      <li><a href="services/#scheduling-and-follow-ups"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-cal"/></svg></span><b>Scheduling and follow-ups</b><span class="note">Your hours and your rules. We never book outside them.</span><span class="n">6 services</span></a></li>
+      <li><a href="services/#documents-and-how-tos"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-folder"/></svg></span><b>Documents and how-tos</b><span class="note">Your files stay in the accounts you already own.</span><span class="n">5 services</span></a></li>
+      <li><a href="services/#ai-in-your-business"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-chip"/></svg></span><b>AI in your business</b><span class="note">Nothing new is installed without your yes.</span><span class="n">7 services</span></a></li>
+      <li><a href="services/#local-presence-and-reputation"><span class="tile" aria-hidden="true"><svg class="i"><use href="#i-pin"/></svg></span><b>Local presence and reputation</b><span class="note">Honest listings and real reviews only. We never write reviews.</span><span class="n">6 services</span></a></li>
+    <!-- services-teaser:end --></ul>
+    <div class="stays-line" data-fx="scan"><!-- stays-line:start --><h3 class="sl-h">Never touch</h3><p class="sl-sub">Always stays with you or a licensed pro.</p><ul><li>Tax prep and filing</li><li>Payroll processing and filing</li><li>Legal advice, contracts and formal HR policy</li><li>Moving money, paying bills or collecting debts</li><li>Signing anything</li><li>Outbound AI voice calls to your customers</li><li>Patient or health records</li></ul><!-- stays-line:end --></div>
+    </div>
+    <p class="ctas"><!-- services-all:start --><a class="btn ghost" href="services/">See all 38 services</a><!-- services-all:end --></p>
+  </div>
+</section>
+
+<section class="band dark" id="promises" data-hud="Promises" aria-labelledby="promises-h">
+  <div class="wrap">
+    <div class="sec-h" data-fx="head">
+      <p class="eyebrow">07 · Promises</p>
+      <h2 id="promises-h">What we promise, in <span class="sw">writing</span>.</h2>
+    </div>
+    <ol class="prom" data-fx="cascade" id="prom">
+      <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>You approve before anything is sent, filed or final. Automatic messages, like a missed-call text, only ever use wording you approved.</span></li>
+      <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>We reply to your email within one business day.</span></li>
+      <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>If we make a mistake in work you approved, we fix it at no charge.</span></li>
+      <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>Stop any time. Within 2 business days we remove our access, hand back every file and how-to we made, and confirm it in writing.</span></li>
+    </ol>
+    <details class="more" id="logins">
+      <summary>How we handle your logins and data<svg aria-hidden="true"><use href="#i-plus"/></svg></summary>
+      <div class="more-in">
+        <div class="dataCard">
+          <ul>
+            <li>We never ask for passwords by email, text or on this site.</li>
+            <li>You invite us as a user, so you can remove us in one click.</li>
+            <li>View-only access unless a task needs more.</li>
+            <li>Multi-factor sign-in on every account we use for your work.</li>
+            <li>A password manager and long, unique passwords on our side.</li>
+            <li>Your files stay in your accounts wherever possible, not on our laptops.</li>
+            <li>We tell you in writing which tools, including AI tools, touch your data, and we use settings that keep it out of AI model training.</li>
+            <li>When you stop, we remove our access within 2 business days.</li>
+          </ul>
+        </div>
+        <div class="more-prom">
+          <h3>Three more promises</h3>
+          <ol class="prom" id="prom-more">
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>Your Admin Map arrives within 3 business days of your check-up.</span></li>
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>One named person owns each of your tasks.</span></li>
+        <li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-ck"/></svg><span>We ask for the least access a task needs, and never for your passwords.</span></li>
+          </ol>
+        </div>
+      </div>
+    </details>
+    <p class="more-link"><a class="arrow-link" href="about/#promises">Every promise on one page</a></p>
+  </div>
+</section>
+
+<section class="band light" id="questions" data-hud="Questions" aria-labelledby="questions-h">
+  <div class="wrap faq-grid">
+    <div class="sec-h" data-fx="head">
+      <p class="eyebrow">08 · Questions</p>
+      <h2 id="questions-h">Fair questions, plain <span class="sw">answers</span>.</h2>
+    </div>
+    <div class="faq" data-fx="cascade">
+      <details open><summary>What does it cost?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>The check-up is free, with nothing to buy. If you want help after that, we quote a flat monthly price in writing before any work starts, based on the tasks you pick. Tool costs, like a texting plan, are paid by you directly to the vendor, and we show them before you decide.</p></details>
+      <details><summary>You're students. Why should I trust you with my business?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Fair question. We are four University of Arkansas students who work in Northwest Arkansas. For you, that means a named person on every task, and work you can check line by line. Try the prototypes on this page and judge the work yourself.</p></details>
+      <details><summary>Is AI going to talk to my customers?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Only if you want it to, and only from answers you approved. A phone or chat assistant says it is an assistant and hands anything else to you. Everything else AI does is a draft that one of us checks and you approve. If you'd rather we skip AI on a task, we do it by hand.</p></details>
+      <details><summary>Do I have to give you my passwords or bank login?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>No, and please don't send them. The check-up needs no logins at all. If you hire us, you invite us as a user in the tools you already use, so you can see what we can reach and remove us in one click. We never touch your bank or move money.</p></details>
+      <details><summary>What if you get something wrong?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>You see the sources and the math before anything is final, and anything we can't match to a record comes to you as a question. If a mistake slips through in work you approved, we fix it at no charge.</p></details>
+      <details><summary>What if I want to stop?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Email us. It is month to month with no cancellation fee. Within 2 business days we remove our access, hand back every file and how-to, and confirm it in writing.</p></details>
+    </div>
+    <div class="faq-foot">
+      <div class="ctas"><a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a></div>
+      <p class="more-link"><a class="arrow-link" href="about/#questions">More questions on the about page</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="band dark close grid-48" id="checkup" data-hud="Start here" aria-labelledby="close-h">
+  <svg class="topo" viewBox="0 0 600 400" aria-hidden="true" preserveAspectRatio="none">
+    <path d="M-20 380 C 80 330, 160 350, 240 300 S 400 250, 470 290"/>
+    <path d="M-20 350 C 70 300, 150 320, 230 268 S 380 220, 450 255"/>
+    <path d="M-20 318 C 60 270, 140 290, 220 238 S 360 192, 425 222"/>
+    <path d="M-20 286 C 50 240, 130 258, 205 210 S 335 168, 395 190"/>
+    <path d="M10 255 C 70 214, 135 228, 196 186 S 305 150, 360 162"/>
+    <path d="M50 226 C 100 194, 150 202, 196 172 S 280 140, 318 146"/>
+    <path d="M100 200 C 135 182, 165 184, 196 166 S 250 146, 270 148"/>
+  </svg>
+  <div class="wrap close-grid">
+    <div data-fx="head">
+      <p class="eyebrow">09 · Start here</p>
+      <h2 id="close-h">Start with 30 minutes. <span class="sw">Free</span>.</h2>
+      <p class="lead">Local, no card, and the plan is yours to keep.</p>
+      <div class="cl-fld" id="cl-fld" aria-hidden="true"><canvas></canvas></div>
+      <h3 class="next-h" id="next-h">What happens next</h3>
+      <ol class="next" aria-labelledby="next-h">
+        <li><b>One of us replies within one business day</b> to set a time.</li>
+        <li><b>We meet for 30 minutes</b>, at your shop, a coffee shop or on video.</li>
+        <li><b>Your Admin Map arrives within 3 business days.</b> Free, and yours to keep.</li>
+      </ol>
+      <ul class="promise-strip"><li>You approve everything</li><li>Stop any time</li><li>No passwords needed</li></ul>
+      <p class="fine close-alt">Rather just ask a question? Email <a href="mailto:righthandnwa@gmail.com">righthandnwa@gmail.com</a> or <a href="#signup">leave your email below</a>.</p>
+    </div>
+    <form class="composer bracket" data-fx="scan" id="composer" novalidate aria-labelledby="comp-h" method="post" action="mailto:righthandnwa@gmail.com?subject=Free%2030-minute%20check-up" enctype="text/plain">
+      <h3 id="comp-h">Get your free <span class="nw">30-minute</span> check-up</h3>
+      <ol class="c-steps"><li>Send these three things.</li><li>One of us replies within one business day to set a time.</li><li>We meet for 30 minutes. Your Admin Map arrives within 3 business days, free.</li></ol>
+      <p class="fine ig-only">In Instagram right now? <a href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer">DM us instead</a>, no form needed.</p>
+      <p class="fine c-back" id="c-back" hidden></p>
+      <div class="field"><label for="c-name">Your name</label><input id="c-name" name="name" autocomplete="name" required aria-describedby="c-name-err"><p class="err" id="c-name-err" hidden>Add your name so we know who to reply to.</p></div>
+      <div class="field"><div class="c-via" role="group" aria-label="How should we reach you?"><button type="button" class="chip" aria-pressed="true" data-via="tel">Text me</button><button type="button" class="chip" aria-pressed="false" data-via="email">Email me</button></div><label for="c-contact" id="c-contact-l">Your cell</label><input id="c-contact" name="contact" type="tel" inputmode="tel" autocomplete="tel" autocapitalize="off" required aria-describedby="c-contact-hint c-contact-err"><p class="hint" id="c-contact-hint">We text you back at this number.</p><p class="err" id="c-contact-err" hidden>Add a 10-digit cell number.</p></div>
+      <input type="text" name="rh_hp" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div class="two">
+        <div class="field"><label for="c-biz">Business name</label><input id="c-biz" name="business" autocomplete="organization" required aria-describedby="c-biz-err"><p class="err" id="c-biz-err" hidden>Add your business name.</p></div>
+        <div class="field"><label for="c-town">Town <span class="opt">(optional)</span></label><select id="c-town" name="town"><option value="">Pick your town</option><option>Bentonville</option><option>Rogers</option><option>Springdale</option><option>Fayetteville</option><option>Bella Vista</option><option>Siloam Springs</option><option>Lowell</option><option>Cave Springs</option><option>Centerton</option><option>Farmington</option><option>Prairie Grove</option><option>Other NWA town</option></select></div>
+      </div>
+      <details class="c-more"><summary>Add details <span class="opt">(optional)</span></summary>
+      <div class="field"><fieldset><legend>What eats the most time? <span class="opt">(optional)</span></legend><div class="chips" id="c-eats"></div></fieldset></div>
+      <div class="field"><fieldset><legend>How and when to meet <span class="opt">(optional)</span></legend><div class="chips" id="c-mode"></div></fieldset><label class="sr-only" for="c-times">Days and times that work</label><input id="c-times" name="times" placeholder="Days and times that work, like Tue or Thu mornings"></div>
+      </details>
+      <p class="fine pick-line" id="c-picks" hidden></p>
+      <details class="c-see"><summary>See exactly what we receive</summary><pre class="preview" id="c-preview" aria-live="off"></pre></details>
+      <div class="c-acts"><button type="submit" class="btn" id="c-send"><span class="c-lbl">Send my request</span></button></div>
+      <p class="fine c-doors">Rather not use a form? <a href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer">Message us on Instagram</a>, <a href="mailto:righthandnwa@gmail.com" id="c-mail">open an email draft</a> or <button type="button" class="linkbtn" id="c-copy">copy the message</button>.</p>
+      <ul class="proof" data-fx="cascade" aria-label="The fine print"><li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>Free. Nothing to buy.</li><li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>You keep the plan.</li><li><svg class="ck" viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 12.5l3.5 3.5 7.5-8"/></svg>We reply within one business day.</li></ul>
+      <p class="c-status" id="c-status" role="status"></p>
+      <div class="confirm" id="c-confirm" hidden tabindex="-1"><p><b id="c-confirm-h">Your check-up request is in.</b> <span id="c-confirm-msg">One of us replies within one business day to set a time.</span> <span id="c-chase">Nothing by tomorrow evening?</span> <a href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer">Message us on Instagram</a> or email <a href="mailto:righthandnwa@gmail.com">righthandnwa@gmail.com</a> and we will find it.</p></div>
+    </form>
+  </div>
+</section>
+
+<section class="sg dark" id="signup" data-hud="No meeting needed" aria-labelledby="signup-h">
+  <div class="sg-in">
+    <div class="sg-fld" aria-hidden="true"><canvas></canvas></div>
+    <p class="eyebrow">10 · No meeting needed</p>
+    <h2 id="signup-h">Not ready? Leave your email.</h2>
+    <p class="lead">We'll write back once, with how the check-up works and how to reach us. No list, no spam.</p>
+    <form class="sg-form" novalidate>
+      <div class="sg-field"><label class="sr-only" for="sg-email">Email</label><input id="sg-email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="you@yourbusiness.com" required aria-describedby="sg-status"></div>
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+      <button type="submit" class="btn">Email me how it works</button>
+    </form>
+    <p class="sg-status" id="sg-status" data-status role="status"></p>
+    <p class="sg-fine">We use your email only to write back about Right Hand NWA. It is kept private and is never sold or shared.</p>
+    <div class="sg-done" data-done hidden>
+      <h3>Got it. We'll write back.</h3>
+      <p>We'll email you once, from righthandnwa@gmail.com. Ready now?</p>
+      <a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a>
+    </div>
+    <ul class="sg-alt" aria-label="Other ways to reach us">
+      <li><a href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer"><svg class="i" aria-hidden="true"><use href="#i-ig"/></svg>Message @righthandnwa on Instagram</a></li>
+      <li><a href="mailto:righthandnwa@gmail.com"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg>righthandnwa@gmail.com</a></li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- chrome:menu:start -->
+<dialog class="menu dark" id="site-menu" aria-labelledby="menu-h">
+  <div class="menu-in">
+    <div class="menu-top">
+      <h2 id="menu-h">Menu</h2>
+      <button type="button" class="motion-btn menu-motion" data-motion-proxy aria-pressed="false">Pause motion</button>
+      <button type="button" class="menu-x" data-menu-close aria-label="Close menu" autofocus><svg class="i" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+    <nav aria-label="Sections of the home page"><ol class="menu-list">
+      <li><a href="#team"><b>Who we are</b><span>Four University of Arkansas students.</span></a></li>
+      <li><a href="#demos"><b>The prototypes</b><span>Try the work on made-up local businesses.</span></a></li>
+      <li><a href="#first-handoff"><b>Find your first handoff</b><span>Three taps. A sample Admin Map.</span></a></li>
+      <li><a href="#story"><b>A sample week</b><span>A missed call, a receipt, a late invoice.</span></a></li>
+      <li><a href="#how"><b>How it works and what it costs</b><span>Four steps. The check-up is free.</span></a></li>
+      <li><a href="#services"><b>What we take</b><span>Six service lines, and what we never touch.</span></a></li>
+      <li><a href="#promises"><b>What we promise</b><span>In writing, logins and data included.</span></a></li>
+      <li><a href="#questions"><b>Fair questions</b><span>Cost, students, AI, passwords, stopping.</span></a></li>
+    </ol></nav>
+    <nav aria-label="Pages"><ul class="menu-pages">
+      <li><a href="services/"><b>Services</b><span>Every service, line by line.</span></a></li>
+      <li><a href="about/"><b>About</b><span>The team, every promise, every question.</span></a></li>
+    </ul></nav>
+    <ul class="menu-contact">
+      <li><a href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer" aria-label="Message @righthandnwa on Instagram"><svg class="i" aria-hidden="true"><use href="#i-ig"/></svg>Message us on Instagram</a></li>
+      <li><a href="mailto:righthandnwa@gmail.com" aria-label="Email righthandnwa@gmail.com"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg>Email</a></li>
+      <li><a href="#signup" data-open-interest>Not ready? Leave your email</a></li>
+    </ul>
+    <div class="menu-cta">
+      <a class="btn" href="#checkup" data-go="checkup">Get my free 30-minute check-up</a>
+    </div>
+  </div>
+</dialog>
+<!-- chrome:menu:end -->
+
+<!-- chrome:footer:start -->
+<footer>
+  <div class="wrap">
+    <a class="lockup" href="#top" aria-label="Right Hand NWA, back to top"><svg class="mark" viewBox="4 5 56 54" aria-hidden="true"><path class="mk-br" d="M23 5h30a7 7 0 0 1 7 7v31a6 6 0 0 1-6 6V13a2 2 0 0 0-2-2H22V6a1 1 0 0 1 1-1Z"/><rect class="mk-bx" x="6.5" y="17.5" width="39" height="39" rx="4.5" fill="none" stroke-width="5"/><path class="mk-ck" d="M17.5 39.5l5.75 5L37 32" fill="none" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" pathLength="1"/></svg><b>Right Hand <span>NWA</span></b></a>
+    <p class="foot-line">Admin and AI help · Northwest Arkansas · <a href="mailto:righthandnwa@gmail.com">righthandnwa@gmail.com</a></p>
+    <nav aria-label="Footer"><ul class="row foot-nav">
+      <li><a href="services/">Services</a></li>
+      <li><a href="about/">About</a></li>
+      <li><a href="https://www.instagram.com/righthandnwa/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    </ul></nav>
+    <p class="fine"><!-- page-fine:start -->We are not a CPA firm, law firm or payroll provider. Nothing here is tax, legal or accounting advice. Every demo business on this page is made up. Nothing you type in the prototypes leaves this page. The check-up form and the email sign-up send what you enter, the address of this page and the address of the page that linked you here to a private Google Form our team owns. It is never sold or shared.<!-- page-fine:end --></p>
+  </div>
+</footer>
+<!-- chrome:footer:end -->
+
+<a class="cta-pill" id="cta-pill" href="#checkup" data-go="checkup"><span class="cp-i" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path class="cp-ck" pathLength="1" d="M8.5 14.5l2 2 4-4"/></svg><i class="cp-ping"></i></span>Get my free check-up</a>
+<!-- chrome:bar:start -->
+<div class="mobile-bar" id="mobile-bar"><a class="bar-go" href="#checkup" data-go="checkup"><span class="btn">Get my free check-up</span></a><a class="bar-dm ig-only" href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer"><span>DM us</span></a><a class="bar-nav" href="#site-menu" data-menu-open aria-label="Menu"><span class="bar-menu"><svg class="i" aria-hidden="true"><use href="#i-menu"/></svg><span class="bar-mtxt">Menu</span></span></a></div>
+<!-- chrome:bar:end -->
+
+<dialog id="interest" aria-labelledby="int-h">
+  <div class="int-card">
+    <button type="button" class="int-x" data-close aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <form method="dialog" novalidate>
+      <p class="eyebrow" style="color:var(--blue-700)">Right Hand NWA</p>
+      <h2 id="int-h">Not ready? Leave your email.</h2>
+      <p class="sub">We'll write back once, with how the check-up works and how to reach us. No list, no spam.</p>
+      <div class="field"><label for="i-email">Email</label><input id="i-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="two">
+        <div class="field"><label for="i-biz">Business <span class="opt">(optional)</span></label><input id="i-biz" name="business" autocomplete="organization"></div>
+        <div class="field"><label for="i-city">Town <span class="opt">(optional)</span></label><select id="i-city" name="city"><option value="">Pick one</option><option>Bentonville</option><option>Rogers</option><option>Springdale</option><option>Fayetteville</option><option>Bella Vista</option><option>Siloam Springs</option><option>Other NWA town</option></select></div>
+      </div>
+      <div class="field"><fieldset><legend>What would help most? <span class="opt">(optional)</span></legend><div class="chips">
+        <label class="chip"><input type="checkbox" name="interest" value="Receipts and expenses">Receipts and expenses</label>
+        <label class="chip"><input type="checkbox" name="interest" value="Invoices and follow-ups">Invoices</label>
+        <label class="chip"><input type="checkbox" name="interest" value="Missed calls and texts">Missed calls</label>
+        <label class="chip"><input type="checkbox" name="interest" value="Email">Email</label>
+        <label class="chip"><input type="checkbox" name="interest" value="Scheduling">Scheduling</label>
+        <label class="chip"><input type="checkbox" name="interest" value="AI and automations">AI setup</label>
+      </div></fieldset></div>
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+      <div class="c-acts"><button type="submit" class="btn">Email me how it works</button><button type="button" class="btn ghost" data-close>No thanks</button></div>
+      <p class="int-status" data-status role="status"></p>
+      <p class="int-fine">We use your email only to write back about Right Hand NWA. It is kept private and is never sold or shared.</p>
+    </form>
+    <div data-done hidden>
+      <h2>Got it. We'll write back.</h2>
+      <p class="sub">We'll email you once, from righthandnwa@gmail.com. Ready now? Get the free check-up, or message us on Instagram.</p>
+      <div class="c-acts"><a class="btn" href="#checkup" data-go="checkup" data-close>Get my free 30-minute check-up</a><a class="btn ghost" href="https://ig.me/m/righthandnwa" target="_blank" rel="noopener noreferrer">Message us on Instagram</a></div>
+    </div>
+  </div>
+</dialog>
+<!-- jsonld:start -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","ProfessionalService"],"@id":"https://righthandnwa.com/#organization","name":"Right Hand NWA","alternateName":"Right Hand Northwest Arkansas","url":"https://righthandnwa.com/","description":"Admin and AI help for Northwest Arkansas small businesses, from four University of Arkansas students. The team takes receipts, invoices, missed calls, follow-ups, scheduling and paperwork off small business owners' plates, and sets up AI that drafts the busywork. AI drafts, a person on the team checks, and the owner approves. Tax, payroll, legal work and moving money stay with the owner and their licensed pros.","slogan":"Hand off the admin. Keep the final say.","logo":{"@type":"ImageObject","@id":"https://righthandnwa.com/#logo","url":"https://righthandnwa.com/assets/logo.png","contentUrl":"https://righthandnwa.com/assets/logo.png","width":512,"height":512,"caption":"Right Hand NWA"},"image":{"@type":"ImageObject","@id":"https://righthandnwa.com/#image","url":"https://righthandnwa.com/assets/og.png","contentUrl":"https://righthandnwa.com/assets/og.png","width":1200,"height":630},"email":"righthandnwa@gmail.com","contactPoint":{"@type":"ContactPoint","contactType":"customer service","email":"righthandnwa@gmail.com","areaServed":"US-AR","availableLanguage":"English"},"sameAs":["https://www.instagram.com/righthandnwa/"],"founder":[{"@type":"Person","name":"Jackson Varela","description":"University of Arkansas student","memberOf":{"@id":"https://righthandnwa.com/#uark"}},{"@type":"Person","name":"Annie Wagner","description":"University of Arkansas student","memberOf":{"@id":"https://righthandnwa.com/#uark"}},{"@type":"Person","name":"Abigail Estes","description":"University of Arkansas student","memberOf":{"@id":"https://righthandnwa.com/#uark"}},{"@type":"Person","name":"Bella Gambaro","description":"University of Arkansas student","memberOf":{"@id":"https://righthandnwa.com/#uark"}}],"areaServed":[{"@type":"Place","name":"Northwest Arkansas","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"AdministrativeArea","name":"Benton County, Arkansas","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"AdministrativeArea","name":"Washington County, Arkansas","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Bentonville","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Rogers","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Springdale","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Fayetteville","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Bella Vista","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Siloam Springs","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Lowell","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Cave Springs","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Centerton","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Farmington","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Prairie Grove","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}},{"@type":"City","name":"Pea Ridge","containedInPlace":{"@id":"https://righthandnwa.com/#arkansas"}}],"knowsAbout":["Small business admin","Receipt capture and expense review","Invoice follow-ups","CPA and bookkeeper prep","Inbox triage and reply drafts","Missed-call text-back","Appointment scheduling and reminders","Written how-tos (SOPs)","Workflow automations","Practical AI for small business","AI use policies for small business","Google Business Profile and local listings","Honest review requests"],"hasOfferCatalog":{"@type":"OfferCatalog","name":"Right Hand NWA services","url":"https://righthandnwa.com/services/","itemListElement":[{"@type":"OfferCatalog","name":"Money admin","url":"https://righthandnwa.com/services/#money-admin","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Receipt capture and categorizing"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Monthly expense review"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Invoices and overdue follow-ups"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Quotes and estimates"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Bills-due and renewals calendar"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"CPA and bookkeeper prep"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Software subscription cleanup"}}]},{"@type":"OfferCatalog","name":"Customers and front desk","url":"https://righthandnwa.com/services/#customers-and-front-desk","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Inbox triage and reply drafts"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Missed-call text-back and booking"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI phone answering, inbound only"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Website chat assistant"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Lead intake form that routes itself"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"CRM setup and cleanup"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Quote follow-ups"}}]},{"@type":"OfferCatalog","name":"Scheduling and follow-ups","url":"https://righthandnwa.com/services/#scheduling-and-follow-ups","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Booking page"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Appointment reminders and no-show follow-ups"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Calendar management"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Staff schedule drafts"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Vendor and delivery coordination"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Meeting and call notes with AI"}}]},{"@type":"OfferCatalog","name":"Documents and how-tos","url":"https://righthandnwa.com/services/#documents-and-how-tos","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"One folder system with naming rules"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Templates for quotes, forms and checklists"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Written how-tos (SOPs)"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Hiring admin"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Supplier and vendor office support"}}]},{"@type":"OfferCatalog","name":"AI in your business","url":"https://righthandnwa.com/services/#ai-in-your-business","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Workflow automations"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI email drafting in your inbox"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Weekly owner report"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"AI starter workshop"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"One-page AI use policy"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Company prompt kit and SOP assistant"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Monthly AI office hours"}}]},{"@type":"OfferCatalog","name":"Local presence and reputation","url":"https://righthandnwa.com/services/#local-presence-and-reputation","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Google Business Profile and listings upkeep"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Honest review requests"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Review reply drafts"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Social posts and content calendar"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Email newsletter"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"Digital front door check"}}]}]},"makesOffer":{"@type":"Offer","@id":"https://righthandnwa.com/#checkup-offer","name":"Free 30-minute check-up","price":"0","priceCurrency":"USD","url":"https://righthandnwa.com/#checkup","description":"A free 30-minute check-up at your business anywhere in Benton or Washington County, or by video or phone. Within 3 business days, Your Admin Map arrives by email: your top 3 tasks to hand off, and for each one what we would do, what AI would draft, what stays with you, and what stays with your CPA or attorney. No card, no obligation to hire us.","itemOffered":{"@type":"Service","name":"30-minute admin and AI check-up","provider":{"@id":"https://righthandnwa.com/#organization"},"areaServed":{"@id":"https://righthandnwa.com/#arkansas"}}}},{"@type":"CollegeOrUniversity","@id":"https://righthandnwa.com/#uark","name":"University of Arkansas","url":"https://www.uark.edu/"},{"@type":"State","@id":"https://righthandnwa.com/#arkansas","name":"Arkansas","containedInPlace":{"@type":"Country","name":"United States"}},{"@type":"WebSite","@id":"https://righthandnwa.com/#website","url":"https://righthandnwa.com/","name":"Right Hand NWA","alternateName":"Right Hand Northwest Arkansas","publisher":{"@id":"https://righthandnwa.com/#organization"},"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://righthandnwa.com/#webpage","url":"https://righthandnwa.com/","name":"Right Hand NWA | Admin and AI help for Northwest Arkansas small businesses","description":"Admin and AI help for small businesses in Bentonville, Rogers, Springdale and Fayetteville, from four University of Arkansas students. AI drafts, we check, you approve. Free 30-minute check-up.","isPartOf":{"@id":"https://righthandnwa.com/#website"},"about":{"@id":"https://righthandnwa.com/#organization"},"primaryImageOfPage":{"@id":"https://righthandnwa.com/#image"},"inLanguage":"en-US"},{"@type":"FAQPage","@id":"https://righthandnwa.com/#faq","url":"https://righthandnwa.com/#questions","isPartOf":{"@id":"https://righthandnwa.com/#webpage"},"mainEntity":[{"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"The check-up is free, with nothing to buy. If you want help after that, we quote a flat monthly price in writing before any work starts, based on the tasks you pick. Tool costs, like a texting plan, are paid by you directly to the vendor, and we show them before you decide."}},{"@type":"Question","name":"You're students. Why should I trust you with my business?","acceptedAnswer":{"@type":"Answer","text":"Fair question. We are four University of Arkansas students who work in Northwest Arkansas. For you, that means a named person on every task, and work you can check line by line. Try the prototypes on this page and judge the work yourself."}},{"@type":"Question","name":"Is AI going to talk to my customers?","acceptedAnswer":{"@type":"Answer","text":"Only if you want it to, and only from answers you approved. A phone or chat assistant says it is an assistant and hands anything else to you. Everything else AI does is a draft that one of us checks and you approve. If you'd rather we skip AI on a task, we do it by hand."}},{"@type":"Question","name":"Do I have to give you my passwords or bank login?","acceptedAnswer":{"@type":"Answer","text":"No, and please don't send them. The check-up needs no logins at all. If you hire us, you invite us as a user in the tools you already use, so you can see what we can reach and remove us in one click. We never touch your bank or move money."}},{"@type":"Question","name":"What if you get something wrong?","acceptedAnswer":{"@type":"Answer","text":"You see the sources and the math before anything is final, and anything we can't match to a record comes to you as a question. If a mistake slips through in work you approved, we fix it at no charge."}},{"@type":"Question","name":"What if I want to stop?","acceptedAnswer":{"@type":"Answer","text":"Email us. It is month to month with no cancellation fee. Within 2 business days we remove our access, hand back every file and how-to, and confirm it in writing."}}]}]}</script>
+<!-- jsonld:end -->
+</body>
+</html>
